@@ -3,7 +3,7 @@
 //  SaĝaDormo
 //
 //  Created by venus.janne on 2018/07/29.
-//  Copyright © 2018 x.yang. All rights reserved.
+//  Copyright © 2018 venus.janne. All rights reserved.
 //
 
 import UIKit
@@ -11,7 +11,8 @@ import WebKit
 
 class SDWebViewController: SDViewController {
     
-    @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var contentView: UIView!
+    fileprivate var webView: UIWebView!
     fileprivate var wkWebView: WKWebView!
     
     var url: String?
@@ -19,6 +20,7 @@ class SDWebViewController: SDViewController {
     fileprivate let kErrorPageHtml: String = "error_page"
     
     class func openUrl(source: UIViewController, url: String, pageTitle: String? ) {
+        /*
         if let inst = R.storyboard.main().instantiateViewController(withIdentifier: R.storyboard.main.webController.identifier) as? SDWebViewController {
             inst.url = url
             inst.pageTitle = pageTitle
@@ -29,6 +31,7 @@ class SDWebViewController: SDViewController {
 
             source.navigationController?.show(inst, sender: source)
         }
+         */
     }
     
     override func viewDidLoad() {
@@ -37,15 +40,18 @@ class SDWebViewController: SDViewController {
         // Do any additional setup after loading the view.
         self.navigationItem.title = self.pageTitle
         
-        if #available(iOS 11, *) {
-            self.webView.removeFromSuperview()
-            
+        if #available(iOS 9, *) {
             self.wkWebView = WKWebView(frame: CGRect(x: 8, y: 0, width: self.view.frame.width - 16, height: self.view.frame.height))
-            self.view.addSubview(self.wkWebView)
+            self.contentView.addSubview(self.wkWebView)
+            self.contentView.adjustViewLayout(itemView: self.wkWebView)
+            
             self.wkWebView.uiDelegate = self
             self.wkWebView.navigationDelegate = self
         } else {
-            self.webView.topAnchor.constraint(equalTo: self.view.compatibleSafeAreaLayoutGuide.topAnchor).isActive = true
+            self.webView = UIWebView(frame: CGRect(x: 8, y: 0, width: self.view.frame.width - 16, height: self.view.frame.height))
+            self.contentView.addSubview(self.webView)
+            self.contentView.adjustViewLayout(itemView: self.webView)
+
             self.webView.backgroundColor = UIColor.white
             self.webView.delegate = self
         }
@@ -59,7 +65,7 @@ class SDWebViewController: SDViewController {
             }*/
 
             let request = URLRequest(url: url)
-            if #available(iOS 11, *) {
+            if #available(iOS 9, *) {
                 self.wkWebView.load(request)
             } else {
                 self.webView.loadRequest(request)
@@ -92,12 +98,17 @@ class SDWebViewController: SDViewController {
     }
     */
 
+    func setScrollDelegate(delegate: UIScrollViewDelegate?) {
+        
+    }
 }
 
+// MARK: - WKUIDelegate
 extension SDWebViewController: WKUIDelegate {
     
 }
 
+// MARK: - WKNavigationDelegate
 extension SDWebViewController:  WKNavigationDelegate {
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
         
@@ -126,21 +137,23 @@ extension SDWebViewController:  WKNavigationDelegate {
         let htmlFilePath : String! = Bundle.main.path(forResource: self.kErrorPageHtml, ofType: "html")
         if var htmlString = try? String(contentsOfFile: htmlFilePath!) {
             
-            //ウェbページへのアクセス不可::ウェブページ(%@)は次の理由で読み込めませんでした\n%@
-            let msgTmp = SDLocaleUtil.shared.localizedMisc(key: "Web.errorPage.offline.message", commenmt: "オフライン時のメッセージ").components(separatedBy: "::")
+            // Strip url string
             var urlString: String!
-            if #available(iOS 11, *) {
+            if #available(iOS 9, *) {
                 urlString = self.wkWebView.url?.absoluteString ?? ""
             } else {
                 urlString = (self.webView.request?.url?.absoluteString)!
             }
             urlString = (urlString == "") ? self.url : nil
 
-            let msg = String(format: msgTmp[1], urlString ?? "", error.localizedDescription)
+
+            //ウェbページへのアクセス不可::ウェブページ(%@)は次の理由で読み込めませんでした\n%@
+            let msgTmp: [String] = R.string.localeMisc.webErrorPageOfflineMessage(urlString ?? "", error.localizedDescription).components(separatedBy: "::")
+
             htmlString = htmlString.replacingOccurrences(of: "{{ErrorTitle}}", with: msgTmp[0])
-            htmlString = htmlString.replacingOccurrences(of: "{{ErrorMessage}}", with: msg)
+            htmlString = htmlString.replacingOccurrences(of: "{{ErrorMessage}}", with: msgTmp[1])
             
-            if #available(iOS 11, *) {
+            if #available(iOS 9, *) {
                 self.wkWebView.loadHTMLString(htmlString, baseURL: Bundle.main.bundleURL)
             } else {
                 self.webView.loadHTMLString(htmlString, baseURL: Bundle.main.bundleURL)
@@ -148,6 +161,8 @@ extension SDWebViewController:  WKNavigationDelegate {
         }
     }
 }
+
+// MARK: - UIWebViewDelegate
 
 extension SDWebViewController: UIWebViewDelegate {
     func webViewDidStartLoad(_ webView: UIWebView) {

@@ -2,8 +2,8 @@
 //  CALayer+ext.swift
 //  SaĝaDormo
 //
-//  Created by x.yang on 2018/08/02.
-//  Copyright © 2018年 x.yang. All rights reserved.
+//  Created by venus.janne on 2018/08/02.
+//  Copyright © 2018年 venus.janne. All rights reserved.
 //
 import UIKit
 
@@ -95,7 +95,7 @@ extension UIView {
 
 }
 
-
+// MARK: rotate view
 extension UIView {
     // 指定ビューを回転させる
     //
@@ -111,6 +111,7 @@ extension UIView {
     }
 }
 
+// MARK: layout guide
 extension UIView {
     /// Use safeAreaLayoutGuide on iOS 11+, otherwise default to dummy layout guide
     var compatibleSafeAreaLayoutGuide: UILayoutGuide {
@@ -119,5 +120,67 @@ extension UIView {
         } else {
             return layoutMarginsGuide
         }
+    }
+    
+    func adjustViewLayout(itemView: UIView) {
+        // AutoLayoutを使用する
+        itemView.translatesAutoresizingMaskIntoConstraints = false
+        
+        // 上端をcurrent Viewへ合わせる
+        self.addConstraint(NSLayoutConstraint(
+            item: itemView,
+            attribute: .top,
+            relatedBy: .equal,
+            toItem: self,
+            attribute: .top,
+            multiplier: 1.0,
+            constant: 0) )
+        
+        // 下端をcurrent Viewへ合わせる
+        self.addConstraint(NSLayoutConstraint(
+            item: itemView,
+            attribute: .bottom,
+            relatedBy: .equal,
+            toItem: self,
+            attribute: .bottom,
+            multiplier: 1.0,
+            constant: 0) )
+        
+        // 左端をcurrent Viewへ合わせる
+        self.addConstraint(NSLayoutConstraint(
+            item: itemView,
+            attribute: .left,
+            relatedBy: .equal,
+            toItem: self,
+            attribute: .left,
+            multiplier: 1.0,
+            constant: 0) )
+        
+        // 右端をcurrent Viewへ合わせる
+        self.addConstraint(NSLayoutConstraint(
+            item: itemView,
+            attribute: .right,
+            relatedBy: .equal,
+            toItem: self,
+            attribute: .right,
+            multiplier: 1.0,
+            constant: 0) )
+    }
+}
+
+// MARK: sub views recursive
+extension UIView {
+    func getSubviewsOf<T : UIView>(view:UIView) -> [T] {
+        var subviews = [T]()
+        
+        for subview in view.subviews {
+            subviews += getSubviewsOf(view: subview) as [T]
+            
+            if let subview = subview as? T {
+                subviews.append(subview)
+            }
+        }
+        
+        return subviews
     }
 }

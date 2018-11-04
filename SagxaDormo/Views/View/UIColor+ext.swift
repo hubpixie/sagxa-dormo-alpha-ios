@@ -2,8 +2,8 @@
 //  UIColor+ext.swift
 //  SaĝaDormo
 //
-//  Created by x.yang on 2018/08/28.
-//  Copyright © 2018年 x.yang. All rights reserved.
+//  Created by venus.janne on 2018/08/28.
+//  Copyright © 2018年 venus.janne. All rights reserved.
 //
 
 import UIKit

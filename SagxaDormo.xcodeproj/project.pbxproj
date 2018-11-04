@@ -8,6 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		57454FAFFB07788F7BCB273D /* Pods_SagxaDormo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC9D333AFD206220D7CC86D /* Pods_SagxaDormo.framework */; };
+		7D0B997C218EE184003738F7 /* locale-misc.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B997E218EE184003738F7 /* locale-misc.strings */; };
+		7D0B9981218EECD8003738F7 /* error_page.html in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B9980218EECD8003738F7 /* error_page.html */; };
+		7D1CB735218EF1730058FBCA /* UIScrollView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1CB734218EF1730058FBCA /* UIScrollView+ext.swift */; };
+		7D2E42A3218E0385006B1C3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E429F218E0385006B1C3F /* LaunchScreen.storyboard */; };
+		7D2E42A4218E0385006B1C3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42A1218E0385006B1C3F /* Main.storyboard */; };
+		7D2E42A8218E041C006B1C3F /* SDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42A7218E041C006B1C3F /* SDLoginViewController.swift */; };
+		7D2E42AA218E04E7006B1C3F /* SDImportantMattersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42A9218E04E7006B1C3F /* SDImportantMattersViewController.swift */; };
+		7D2E42AC218E0574006B1C3F /* SDUsageItemsOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AB218E0574006B1C3F /* SDUsageItemsOneViewController.swift */; };
+		7D2E42AE218E0597006B1C3F /* SDUsageItemsTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AD218E0597006B1C3F /* SDUsageItemsTwoViewController.swift */; };
+		7D2E42B0218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AF218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift */; };
+		7D2E42B2218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B1218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift */; };
+		7D2E42B4218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B3218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift */; };
+		7D2E42BA218E0DBC006B1C3F /* SDKonsiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B9218E0DBC006B1C3F /* SDKonsiloViewController.swift */; };
+		7D2E42BC218E0DDE006B1C3F /* SDHistorioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42BB218E0DDE006B1C3F /* SDHistorioViewController.swift */; };
+		7D2E42C3218E16CC006B1C3F /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42BD218E16CB006B1C3F /* History.storyboard */; };
+		7D2E42C4218E16CC006B1C3F /* Konsilo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42BF218E16CB006B1C3F /* Konsilo.storyboard */; };
+		7D2E42C5218E16CC006B1C3F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42C1218E16CC006B1C3F /* Login.storyboard */; };
+		7D2E42C7218E18C7006B1C3F /* SDUsageItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42C6218E18C7006B1C3F /* SDUsageItemsViewController.swift */; };
 		7D4B07A9216B8D2900D19D1A /* SDMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B079D216B8D2900D19D1A /* SDMainViewController.swift */; };
 		7D4B07AD216B8DBF00D19D1A /* SDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AA216B8DBF00D19D1A /* SDViewController.swift */; };
 		7D4B07AE216B8DBF00D19D1A /* SDWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AB216B8DBF00D19D1A /* SDWebViewController.swift */; };
@@ -22,14 +40,109 @@
 		7D4B07C3216B94D600D19D1A /* SDLocaleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07C1216B94D600D19D1A /* SDLocaleUtil.swift */; };
 		7D4B07C4216B94D600D19D1A /* SDConstantEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07C2216B94D600D19D1A /* SDConstantEnums.swift */; };
 		7D507E5C216B8B9E00AFC535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D507E5B216B8B9E00AFC535 /* AppDelegate.swift */; };
-		7D507E61216B8B9E00AFC535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D507E5F216B8B9E00AFC535 /* Main.storyboard */; };
 		7D507E63216B8B9F00AFC535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D507E62216B8B9F00AFC535 /* Assets.xcassets */; };
-		7D507E66216B8B9F00AFC535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D507E64216B8B9F00AFC535 /* LaunchScreen.storyboard */; };
+		7D7386EC2195DB4E00347597 /* SDLocaleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07C1216B94D600D19D1A /* SDLocaleUtil.swift */; };
+		7D7386ED2195DB4E00347597 /* SDKonsiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B9218E0DBC006B1C3F /* SDKonsiloViewController.swift */; };
+		7D7386EE2195DB4E00347597 /* UIScrollView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1CB734218EF1730058FBCA /* UIScrollView+ext.swift */; };
+		7D7386EF2195DB4E00347597 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07BC216B93EA00D19D1A /* UIView+ext.swift */; };
+		7D7386F02195DB4E00347597 /* SDMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B079D216B8D2900D19D1A /* SDMainViewController.swift */; };
+		7D7386F12195DB4E00347597 /* SDUsageItemsTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AD218E0597006B1C3F /* SDUsageItemsTwoViewController.swift */; };
+		7D7386F22195DB4E00347597 /* UIColor+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07BB216B93EA00D19D1A /* UIColor+ext.swift */; };
+		7D7386F32195DB4E00347597 /* SDUsageItemsOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AB218E0574006B1C3F /* SDUsageItemsOneViewController.swift */; };
+		7D7386F42195DB4E00347597 /* UIActivityIndicatorView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07BA216B93EA00D19D1A /* UIActivityIndicatorView+ext.swift */; };
+		7D7386F52195DB4E00347597 /* SDHistorioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42BB218E0DDE006B1C3F /* SDHistorioViewController.swift */; };
+		7D7386F62195DB4E00347597 /* SDImportantMattersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42A9218E04E7006B1C3F /* SDImportantMattersViewController.swift */; };
+		7D7386F72195DB4E00347597 /* UIImage+QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07B9216B93EA00D19D1A /* UIImage+QRCode.swift */; };
+		7D7386F82195DB4E00347597 /* String+Regexp+Format+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07B2216B902D00D19D1A /* String+Regexp+Format+Size.swift */; };
+		7D7386F92195DB4E00347597 /* SDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42A7218E041C006B1C3F /* SDLoginViewController.swift */; };
+		7D7386FA2195DB4E00347597 /* Date+Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07B3216B902D00D19D1A /* Date+Misc.swift */; };
+		7D7386FB2195DB4E00347597 /* SDConstantEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07C2216B94D600D19D1A /* SDConstantEnums.swift */; };
+		7D7386FC2195DB4E00347597 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07B6216B90FC00D19D1A /* R.generated.swift */; };
+		7D7386FD2195DB4E00347597 /* SDUsageItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42C6218E18C7006B1C3F /* SDUsageItemsViewController.swift */; };
+		7D7386FE2195DB4E00347597 /* SDProfiloRedaktiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B3218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift */; };
+		7D7386FF2195DB4E00347597 /* SDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AA216B8DBF00D19D1A /* SDViewController.swift */; };
+		7D7387002195DB4E00347597 /* UIStoryboard+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AC216B8DBF00D19D1A /* UIStoryboard+ext.swift */; };
+		7D7387012195DB4E00347597 /* SDTargetSensorConnectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B1218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift */; };
+		7D7387022195DB4E00347597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D507E5B216B8B9E00AFC535 /* AppDelegate.swift */; };
+		7D7387032195DB4E00347597 /* SDTargetSensorSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AF218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift */; };
+		7D7387042195DB4E00347597 /* SDWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AB216B8DBF00D19D1A /* SDWebViewController.swift */; };
+		7D7387062195DB4E00347597 /* Pods_SagxaDormo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC9D333AFD206220D7CC86D /* Pods_SagxaDormo.framework */; };
+		7D7387082195DB4E00347597 /* error_page.html in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B9980218EECD8003738F7 /* error_page.html */; };
+		7D7387092195DB4E00347597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42A1218E0385006B1C3F /* Main.storyboard */; };
+		7D73870A2195DB4E00347597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D507E62216B8B9F00AFC535 /* Assets.xcassets */; };
+		7D73870B2195DB4E00347597 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42C1218E16CC006B1C3F /* Login.storyboard */; };
+		7D73870C2195DB4E00347597 /* locale-misc.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B997E218EE184003738F7 /* locale-misc.strings */; };
+		7D73870D2195DB4E00347597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E429F218E0385006B1C3F /* LaunchScreen.storyboard */; };
+		7D73870E2195DB4E00347597 /* Konsilo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42BF218E16CB006B1C3F /* Konsilo.storyboard */; };
+		7D73870F2195DB4E00347597 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42BD218E16CB006B1C3F /* History.storyboard */; };
+		7D73871A2195DB5C00347597 /* SDLocaleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07C1216B94D600D19D1A /* SDLocaleUtil.swift */; };
+		7D73871B2195DB5C00347597 /* SDKonsiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B9218E0DBC006B1C3F /* SDKonsiloViewController.swift */; };
+		7D73871C2195DB5C00347597 /* UIScrollView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1CB734218EF1730058FBCA /* UIScrollView+ext.swift */; };
+		7D73871D2195DB5C00347597 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07BC216B93EA00D19D1A /* UIView+ext.swift */; };
+		7D73871E2195DB5C00347597 /* SDMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B079D216B8D2900D19D1A /* SDMainViewController.swift */; };
+		7D73871F2195DB5C00347597 /* SDUsageItemsTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AD218E0597006B1C3F /* SDUsageItemsTwoViewController.swift */; };
+		7D7387202195DB5C00347597 /* UIColor+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07BB216B93EA00D19D1A /* UIColor+ext.swift */; };
+		7D7387212195DB5C00347597 /* SDUsageItemsOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AB218E0574006B1C3F /* SDUsageItemsOneViewController.swift */; };
+		7D7387222195DB5C00347597 /* UIActivityIndicatorView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07BA216B93EA00D19D1A /* UIActivityIndicatorView+ext.swift */; };
+		7D7387232195DB5C00347597 /* SDHistorioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42BB218E0DDE006B1C3F /* SDHistorioViewController.swift */; };
+		7D7387242195DB5C00347597 /* SDImportantMattersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42A9218E04E7006B1C3F /* SDImportantMattersViewController.swift */; };
+		7D7387252195DB5C00347597 /* UIImage+QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07B9216B93EA00D19D1A /* UIImage+QRCode.swift */; };
+		7D7387262195DB5C00347597 /* String+Regexp+Format+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07B2216B902D00D19D1A /* String+Regexp+Format+Size.swift */; };
+		7D7387272195DB5C00347597 /* SDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42A7218E041C006B1C3F /* SDLoginViewController.swift */; };
+		7D7387282195DB5C00347597 /* Date+Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07B3216B902D00D19D1A /* Date+Misc.swift */; };
+		7D7387292195DB5C00347597 /* SDConstantEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07C2216B94D600D19D1A /* SDConstantEnums.swift */; };
+		7D73872A2195DB5C00347597 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07B6216B90FC00D19D1A /* R.generated.swift */; };
+		7D73872B2195DB5C00347597 /* SDUsageItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42C6218E18C7006B1C3F /* SDUsageItemsViewController.swift */; };
+		7D73872C2195DB5C00347597 /* SDProfiloRedaktiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B3218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift */; };
+		7D73872D2195DB5C00347597 /* SDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AA216B8DBF00D19D1A /* SDViewController.swift */; };
+		7D73872E2195DB5C00347597 /* UIStoryboard+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AC216B8DBF00D19D1A /* UIStoryboard+ext.swift */; };
+		7D73872F2195DB5C00347597 /* SDTargetSensorConnectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B1218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift */; };
+		7D7387302195DB5C00347597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D507E5B216B8B9E00AFC535 /* AppDelegate.swift */; };
+		7D7387312195DB5C00347597 /* SDTargetSensorSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AF218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift */; };
+		7D7387322195DB5C00347597 /* SDWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AB216B8DBF00D19D1A /* SDWebViewController.swift */; };
+		7D7387342195DB5C00347597 /* Pods_SagxaDormo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC9D333AFD206220D7CC86D /* Pods_SagxaDormo.framework */; };
+		7D7387362195DB5C00347597 /* error_page.html in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B9980218EECD8003738F7 /* error_page.html */; };
+		7D7387372195DB5C00347597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42A1218E0385006B1C3F /* Main.storyboard */; };
+		7D7387382195DB5C00347597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D507E62216B8B9F00AFC535 /* Assets.xcassets */; };
+		7D7387392195DB5C00347597 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42C1218E16CC006B1C3F /* Login.storyboard */; };
+		7D73873A2195DB5C00347597 /* locale-misc.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B997E218EE184003738F7 /* locale-misc.strings */; };
+		7D73873B2195DB5C00347597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E429F218E0385006B1C3F /* LaunchScreen.storyboard */; };
+		7D73873C2195DB5C00347597 /* Konsilo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42BF218E16CB006B1C3F /* Konsilo.storyboard */; };
+		7D73873D2195DB5C00347597 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42BD218E16CB006B1C3F /* History.storyboard */; };
+		7DA4362B2199BB6700D15516 /* SDSplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA4362A2199BB6700D15516 /* SDSplashScreenViewController.swift */; };
+		7DA4362C2199BB6700D15516 /* SDSplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA4362A2199BB6700D15516 /* SDSplashScreenViewController.swift */; };
+		7DA4362D2199BB6700D15516 /* SDSplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA4362A2199BB6700D15516 /* SDSplashScreenViewController.swift */; };
+		7DA9A1182195E2970002AD87 /* info-staging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DA9A1162195E2960002AD87 /* info-staging.plist */; };
+		7DA9A1192195E2970002AD87 /* Info-dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DA9A1172195E2960002AD87 /* Info-dev.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3DC9D333AFD206220D7CC86D /* Pods_SagxaDormo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SagxaDormo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B30FEBFEC694D83F9BF7E0 /* Pods-SagxaDormo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SagxaDormo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo.debug.xcconfig"; sourceTree = "<group>"; };
+		7D0B9977218EE172003738F7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/History.strings; sourceTree = "<group>"; };
+		7D0B9978218EE172003738F7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Konsilo.strings; sourceTree = "<group>"; };
+		7D0B9979218EE172003738F7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Login.strings; sourceTree = "<group>"; };
+		7D0B997A218EE173003738F7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7D0B997B218EE173003738F7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		7D0B997D218EE184003738F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/locale-misc.strings"; sourceTree = "<group>"; };
+		7D0B997F218EE1AB003738F7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = "ja.lproj/locale-misc.strings"; sourceTree = "<group>"; };
+		7D0B9980218EECD8003738F7 /* error_page.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = error_page.html; sourceTree = "<group>"; };
+		7D1CB734218EF1730058FBCA /* UIScrollView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ext.swift"; sourceTree = "<group>"; };
+		7D2E42A0218E0385006B1C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D2E42A2218E0385006B1C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D2E42A7218E041C006B1C3F /* SDLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDLoginViewController.swift; sourceTree = "<group>"; };
+		7D2E42A9218E04E7006B1C3F /* SDImportantMattersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDImportantMattersViewController.swift; sourceTree = "<group>"; };
+		7D2E42AB218E0574006B1C3F /* SDUsageItemsOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDUsageItemsOneViewController.swift; sourceTree = "<group>"; };
+		7D2E42AD218E0597006B1C3F /* SDUsageItemsTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDUsageItemsTwoViewController.swift; sourceTree = "<group>"; };
+		7D2E42AF218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDTargetSensorSelectViewController.swift; sourceTree = "<group>"; };
+		7D2E42B1218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDTargetSensorConnectedViewController.swift; sourceTree = "<group>"; };
+		7D2E42B3218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDProfiloRedaktiloViewController.swift; sourceTree = "<group>"; };
+		7D2E42B9218E0DBC006B1C3F /* SDKonsiloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKonsiloViewController.swift; sourceTree = "<group>"; };
+		7D2E42BB218E0DDE006B1C3F /* SDHistorioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDHistorioViewController.swift; sourceTree = "<group>"; };
+		7D2E42BE218E16CB006B1C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/History.storyboard; sourceTree = "<group>"; };
+		7D2E42C0218E16CB006B1C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Konsilo.storyboard; sourceTree = "<group>"; };
+		7D2E42C2218E16CC006B1C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		7D2E42C6218E18C7006B1C3F /* SDUsageItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDUsageItemsViewController.swift; sourceTree = "<group>"; };
 		7D4B079D216B8D2900D19D1A /* SDMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDMainViewController.swift; sourceTree = "<group>"; };
 		7D4B07AA216B8DBF00D19D1A /* SDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDViewController.swift; sourceTree = "<group>"; };
 		7D4B07AB216B8DBF00D19D1A /* SDWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDWebViewController.swift; sourceTree = "<group>"; };
@@ -45,10 +158,13 @@
 		7D4B07C2216B94D600D19D1A /* SDConstantEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDConstantEnums.swift; sourceTree = "<group>"; };
 		7D507E58216B8B9E00AFC535 /* SagxaDormo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SagxaDormo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D507E5B216B8B9E00AFC535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D507E60216B8B9E00AFC535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D507E62216B8B9F00AFC535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7D507E65216B8B9F00AFC535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D507E67216B8B9F00AFC535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D7387142195DB4E00347597 /* SagxaDormo-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SagxaDormo-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7387422195DB5C00347597 /* SagxaDormo-staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SagxaDormo-staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA4362A2199BB6700D15516 /* SDSplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSplashScreenViewController.swift; sourceTree = "<group>"; };
+		7DA9A1162195E2960002AD87 /* info-staging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-staging.plist"; sourceTree = "<group>"; };
+		7DA9A1172195E2960002AD87 /* Info-dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-dev.plist"; sourceTree = "<group>"; };
 		E5EF23F4CD007243D6369885 /* Pods-SagxaDormo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SagxaDormo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +174,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				57454FAFFB07788F7BCB273D /* Pods_SagxaDormo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7387052195DB4E00347597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7387062195DB4E00347597 /* Pods_SagxaDormo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7387332195DB5C00347597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7387342195DB5C00347597 /* Pods_SagxaDormo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +213,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7D2E429E218E0385006B1C3F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7D2E42BD218E16CB006B1C3F /* History.storyboard */,
+				7D2E42BF218E16CB006B1C3F /* Konsilo.storyboard */,
+				7D2E42C1218E16CC006B1C3F /* Login.storyboard */,
+				7D2E429F218E0385006B1C3F /* LaunchScreen.storyboard */,
+				7D2E42A1218E0385006B1C3F /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		7D4B0796216B8D2900D19D1A /* Cotrollers */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +242,7 @@
 		7D4B0797216B8D2900D19D1A /* Konsilo */ = {
 			isa = PBXGroup;
 			children = (
+				7D2E42B9218E0DBC006B1C3F /* SDKonsiloViewController.swift */,
 			);
 			path = Konsilo;
 			sourceTree = "<group>";
@@ -129,6 +274,7 @@
 		7D4B079B216B8D2900D19D1A /* History */ = {
 			isa = PBXGroup;
 			children = (
+				7D2E42BB218E0DDE006B1C3F /* SDHistorioViewController.swift */,
 			);
 			path = History;
 			sourceTree = "<group>";
@@ -137,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				7D4B079D216B8D2900D19D1A /* SDMainViewController.swift */,
+				7DA4362A2199BB6700D15516 /* SDSplashScreenViewController.swift */,
 			);
 			path = Chefa;
 			sourceTree = "<group>";
@@ -144,6 +291,14 @@
 		7D4B079E216B8D2900D19D1A /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				7D2E42A7218E041C006B1C3F /* SDLoginViewController.swift */,
+				7D2E42A9218E04E7006B1C3F /* SDImportantMattersViewController.swift */,
+				7D2E42AB218E0574006B1C3F /* SDUsageItemsOneViewController.swift */,
+				7D2E42AD218E0597006B1C3F /* SDUsageItemsTwoViewController.swift */,
+				7D2E42AF218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift */,
+				7D2E42B1218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift */,
+				7D2E42B3218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift */,
+				7D2E42C6218E18C7006B1C3F /* SDUsageItemsViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -215,6 +370,7 @@
 		7D4B07A7216B8D2900D19D1A /* Html */ = {
 			isa = PBXGroup;
 			children = (
+				7D0B9980218EECD8003738F7 /* error_page.html */,
 			);
 			path = Html;
 			sourceTree = "<group>";
@@ -222,6 +378,7 @@
 		7D4B07A8216B8D2900D19D1A /* Localize */ = {
 			isa = PBXGroup;
 			children = (
+				7D0B997E218EE184003738F7 /* locale-misc.strings */,
 			);
 			path = Localize;
 			sourceTree = "<group>";
@@ -245,6 +402,7 @@
 				7D4B07BA216B93EA00D19D1A /* UIActivityIndicatorView+ext.swift */,
 				7D4B07BB216B93EA00D19D1A /* UIColor+ext.swift */,
 				7D4B07BC216B93EA00D19D1A /* UIView+ext.swift */,
+				7D1CB734218EF1730058FBCA /* UIScrollView+ext.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -263,6 +421,8 @@
 			isa = PBXGroup;
 			children = (
 				7D507E58216B8B9E00AFC535 /* SagxaDormo.app */,
+				7D7387142195DB4E00347597 /* SagxaDormo-dev.app */,
+				7D7387422195DB5C00347597 /* SagxaDormo-staging.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -270,16 +430,17 @@
 		7D507E5A216B8B9E00AFC535 /* SagxaDormo */ = {
 			isa = PBXGroup;
 			children = (
+				7DA9A1172195E2960002AD87 /* Info-dev.plist */,
+				7DA9A1162195E2960002AD87 /* info-staging.plist */,
+				7D507E67216B8B9F00AFC535 /* Info.plist */,
+				7D2E429E218E0385006B1C3F /* Storyboards */,
+				7D4B07A4216B8D2900D19D1A /* Network */,
 				7D4B0796216B8D2900D19D1A /* Cotrollers */,
 				7D4B07A3216B8D2900D19D1A /* Models */,
-				7D4B07A4216B8D2900D19D1A /* Network */,
 				7D4B07A5216B8D2900D19D1A /* Resources */,
 				7D4B079F216B8D2900D19D1A /* Views */,
 				7D507E5B216B8B9E00AFC535 /* AppDelegate.swift */,
-				7D507E5F216B8B9E00AFC535 /* Main.storyboard */,
 				7D507E62216B8B9F00AFC535 /* Assets.xcassets */,
-				7D507E64216B8B9F00AFC535 /* LaunchScreen.storyboard */,
-				7D507E67216B8B9F00AFC535 /* Info.plist */,
 			);
 			path = SagxaDormo;
 			sourceTree = "<group>";
@@ -307,6 +468,46 @@
 			productReference = 7D507E58216B8B9E00AFC535 /* SagxaDormo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7D7386E82195DB4E00347597 /* SagxaDormo-dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7387112195DB4E00347597 /* Build configuration list for PBXNativeTarget "SagxaDormo-dev" */;
+			buildPhases = (
+				7D7386E92195DB4E00347597 /* [CP] Check Pods Manifest.lock */,
+				7D7386EA2195DB4E00347597 /* ShellScript */,
+				7D7386EB2195DB4E00347597 /* Sources */,
+				7D7387052195DB4E00347597 /* Frameworks */,
+				7D7387072195DB4E00347597 /* Resources */,
+				7D7387102195DB4E00347597 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SagxaDormo-dev";
+			productName = SagxaDormo;
+			productReference = 7D7387142195DB4E00347597 /* SagxaDormo-dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D7387162195DB5C00347597 /* SagxaDormo-staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D73873F2195DB5C00347597 /* Build configuration list for PBXNativeTarget "SagxaDormo-staging" */;
+			buildPhases = (
+				7D7387172195DB5C00347597 /* [CP] Check Pods Manifest.lock */,
+				7D7387182195DB5C00347597 /* ShellScript */,
+				7D7387192195DB5C00347597 /* Sources */,
+				7D7387332195DB5C00347597 /* Frameworks */,
+				7D7387352195DB5C00347597 /* Resources */,
+				7D73873E2195DB5C00347597 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SagxaDormo-staging";
+			productName = SagxaDormo;
+			productReference = 7D7387422195DB5C00347597 /* SagxaDormo-staging.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -329,12 +530,15 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 7D507E4F216B8B9E00AFC535;
 			productRefGroup = 7D507E59216B8B9E00AFC535 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				7D7386E82195DB4E00347597 /* SagxaDormo-dev */,
+				7D7387162195DB5C00347597 /* SagxaDormo-staging */,
 				7D507E57216B8B9E00AFC535 /* SagxaDormo */,
 			);
 		};
@@ -345,9 +549,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D507E66216B8B9F00AFC535 /* LaunchScreen.storyboard in Resources */,
+				7DA9A1182195E2970002AD87 /* info-staging.plist in Resources */,
+				7D0B9981218EECD8003738F7 /* error_page.html in Resources */,
+				7DA9A1192195E2970002AD87 /* Info-dev.plist in Resources */,
+				7D2E42A4218E0385006B1C3F /* Main.storyboard in Resources */,
 				7D507E63216B8B9F00AFC535 /* Assets.xcassets in Resources */,
-				7D507E61216B8B9E00AFC535 /* Main.storyboard in Resources */,
+				7D2E42C5218E16CC006B1C3F /* Login.storyboard in Resources */,
+				7D0B997C218EE184003738F7 /* locale-misc.strings in Resources */,
+				7D2E42A3218E0385006B1C3F /* LaunchScreen.storyboard in Resources */,
+				7D2E42C4218E16CC006B1C3F /* Konsilo.storyboard in Resources */,
+				7D2E42C3218E16CC006B1C3F /* History.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7387072195DB4E00347597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7387082195DB4E00347597 /* error_page.html in Resources */,
+				7D7387092195DB4E00347597 /* Main.storyboard in Resources */,
+				7D73870A2195DB4E00347597 /* Assets.xcassets in Resources */,
+				7D73870B2195DB4E00347597 /* Login.storyboard in Resources */,
+				7D73870C2195DB4E00347597 /* locale-misc.strings in Resources */,
+				7D73870D2195DB4E00347597 /* LaunchScreen.storyboard in Resources */,
+				7D73870E2195DB4E00347597 /* Konsilo.storyboard in Resources */,
+				7D73870F2195DB4E00347597 /* History.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7387352195DB5C00347597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7387362195DB5C00347597 /* error_page.html in Resources */,
+				7D7387372195DB5C00347597 /* Main.storyboard in Resources */,
+				7D7387382195DB5C00347597 /* Assets.xcassets in Resources */,
+				7D7387392195DB5C00347597 /* Login.storyboard in Resources */,
+				7D73873A2195DB5C00347597 /* locale-misc.strings in Resources */,
+				7D73873B2195DB5C00347597 /* LaunchScreen.storyboard in Resources */,
+				7D73873C2195DB5C00347597 /* Konsilo.storyboard in Resources */,
+				7D73873D2195DB5C00347597 /* History.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,17 +600,123 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-			);
-			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/SagxaDormo/Resources/Bundle\"\n";
+		};
+		7D7386E92195DB4E00347597 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SagxaDormo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D7386EA2195DB4E00347597 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/SagxaDormo/Resources/Bundle\"\n";
+		};
+		7D7387102195DB4E00347597 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwaggerClient/SwaggerClient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwaggerClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D7387172195DB5C00347597 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SagxaDormo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D7387182195DB5C00347597 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/SagxaDormo/Resources/Bundle\"\n";
+		};
+		7D73873E2195DB5C00347597 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwaggerClient/SwaggerClient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwaggerClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		918ACA1506CCD07F02B53171 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -397,12 +744,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwaggerClient/SwaggerClient.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwaggerClient.framework",
 			);
@@ -419,39 +768,155 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D4B07C3216B94D600D19D1A /* SDLocaleUtil.swift in Sources */,
+				7D2E42BA218E0DBC006B1C3F /* SDKonsiloViewController.swift in Sources */,
+				7D1CB735218EF1730058FBCA /* UIScrollView+ext.swift in Sources */,
 				7D4B07C0216B93EB00D19D1A /* UIView+ext.swift in Sources */,
 				7D4B07A9216B8D2900D19D1A /* SDMainViewController.swift in Sources */,
+				7D2E42AE218E0597006B1C3F /* SDUsageItemsTwoViewController.swift in Sources */,
 				7D4B07BF216B93EB00D19D1A /* UIColor+ext.swift in Sources */,
+				7D2E42AC218E0574006B1C3F /* SDUsageItemsOneViewController.swift in Sources */,
 				7D4B07BE216B93EB00D19D1A /* UIActivityIndicatorView+ext.swift in Sources */,
+				7D2E42BC218E0DDE006B1C3F /* SDHistorioViewController.swift in Sources */,
+				7DA4362D2199BB6700D15516 /* SDSplashScreenViewController.swift in Sources */,
+				7D2E42AA218E04E7006B1C3F /* SDImportantMattersViewController.swift in Sources */,
 				7D4B07BD216B93EB00D19D1A /* UIImage+QRCode.swift in Sources */,
 				7D4B07B4216B902D00D19D1A /* String+Regexp+Format+Size.swift in Sources */,
+				7D2E42A8218E041C006B1C3F /* SDLoginViewController.swift in Sources */,
 				7D4B07B5216B902D00D19D1A /* Date+Misc.swift in Sources */,
 				7D4B07C4216B94D600D19D1A /* SDConstantEnums.swift in Sources */,
 				7D4B07B7216B90FC00D19D1A /* R.generated.swift in Sources */,
+				7D2E42C7218E18C7006B1C3F /* SDUsageItemsViewController.swift in Sources */,
+				7D2E42B4218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift in Sources */,
 				7D4B07AD216B8DBF00D19D1A /* SDViewController.swift in Sources */,
 				7D4B07AF216B8DBF00D19D1A /* UIStoryboard+ext.swift in Sources */,
+				7D2E42B2218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift in Sources */,
 				7D507E5C216B8B9E00AFC535 /* AppDelegate.swift in Sources */,
+				7D2E42B0218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift in Sources */,
 				7D4B07AE216B8DBF00D19D1A /* SDWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7386EB2195DB4E00347597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7386EC2195DB4E00347597 /* SDLocaleUtil.swift in Sources */,
+				7D7386ED2195DB4E00347597 /* SDKonsiloViewController.swift in Sources */,
+				7D7386EE2195DB4E00347597 /* UIScrollView+ext.swift in Sources */,
+				7D7386EF2195DB4E00347597 /* UIView+ext.swift in Sources */,
+				7D7386F02195DB4E00347597 /* SDMainViewController.swift in Sources */,
+				7D7386F12195DB4E00347597 /* SDUsageItemsTwoViewController.swift in Sources */,
+				7D7386F22195DB4E00347597 /* UIColor+ext.swift in Sources */,
+				7D7386F32195DB4E00347597 /* SDUsageItemsOneViewController.swift in Sources */,
+				7D7386F42195DB4E00347597 /* UIActivityIndicatorView+ext.swift in Sources */,
+				7D7386F52195DB4E00347597 /* SDHistorioViewController.swift in Sources */,
+				7DA4362B2199BB6700D15516 /* SDSplashScreenViewController.swift in Sources */,
+				7D7386F62195DB4E00347597 /* SDImportantMattersViewController.swift in Sources */,
+				7D7386F72195DB4E00347597 /* UIImage+QRCode.swift in Sources */,
+				7D7386F82195DB4E00347597 /* String+Regexp+Format+Size.swift in Sources */,
+				7D7386F92195DB4E00347597 /* SDLoginViewController.swift in Sources */,
+				7D7386FA2195DB4E00347597 /* Date+Misc.swift in Sources */,
+				7D7386FB2195DB4E00347597 /* SDConstantEnums.swift in Sources */,
+				7D7386FC2195DB4E00347597 /* R.generated.swift in Sources */,
+				7D7386FD2195DB4E00347597 /* SDUsageItemsViewController.swift in Sources */,
+				7D7386FE2195DB4E00347597 /* SDProfiloRedaktiloViewController.swift in Sources */,
+				7D7386FF2195DB4E00347597 /* SDViewController.swift in Sources */,
+				7D7387002195DB4E00347597 /* UIStoryboard+ext.swift in Sources */,
+				7D7387012195DB4E00347597 /* SDTargetSensorConnectedViewController.swift in Sources */,
+				7D7387022195DB4E00347597 /* AppDelegate.swift in Sources */,
+				7D7387032195DB4E00347597 /* SDTargetSensorSelectViewController.swift in Sources */,
+				7D7387042195DB4E00347597 /* SDWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7387192195DB5C00347597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D73871A2195DB5C00347597 /* SDLocaleUtil.swift in Sources */,
+				7D73871B2195DB5C00347597 /* SDKonsiloViewController.swift in Sources */,
+				7D73871C2195DB5C00347597 /* UIScrollView+ext.swift in Sources */,
+				7D73871D2195DB5C00347597 /* UIView+ext.swift in Sources */,
+				7D73871E2195DB5C00347597 /* SDMainViewController.swift in Sources */,
+				7D73871F2195DB5C00347597 /* SDUsageItemsTwoViewController.swift in Sources */,
+				7D7387202195DB5C00347597 /* UIColor+ext.swift in Sources */,
+				7D7387212195DB5C00347597 /* SDUsageItemsOneViewController.swift in Sources */,
+				7D7387222195DB5C00347597 /* UIActivityIndicatorView+ext.swift in Sources */,
+				7D7387232195DB5C00347597 /* SDHistorioViewController.swift in Sources */,
+				7DA4362C2199BB6700D15516 /* SDSplashScreenViewController.swift in Sources */,
+				7D7387242195DB5C00347597 /* SDImportantMattersViewController.swift in Sources */,
+				7D7387252195DB5C00347597 /* UIImage+QRCode.swift in Sources */,
+				7D7387262195DB5C00347597 /* String+Regexp+Format+Size.swift in Sources */,
+				7D7387272195DB5C00347597 /* SDLoginViewController.swift in Sources */,
+				7D7387282195DB5C00347597 /* Date+Misc.swift in Sources */,
+				7D7387292195DB5C00347597 /* SDConstantEnums.swift in Sources */,
+				7D73872A2195DB5C00347597 /* R.generated.swift in Sources */,
+				7D73872B2195DB5C00347597 /* SDUsageItemsViewController.swift in Sources */,
+				7D73872C2195DB5C00347597 /* SDProfiloRedaktiloViewController.swift in Sources */,
+				7D73872D2195DB5C00347597 /* SDViewController.swift in Sources */,
+				7D73872E2195DB5C00347597 /* UIStoryboard+ext.swift in Sources */,
+				7D73872F2195DB5C00347597 /* SDTargetSensorConnectedViewController.swift in Sources */,
+				7D7387302195DB5C00347597 /* AppDelegate.swift in Sources */,
+				7D7387312195DB5C00347597 /* SDTargetSensorSelectViewController.swift in Sources */,
+				7D7387322195DB5C00347597 /* SDWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7D507E5F216B8B9E00AFC535 /* Main.storyboard */ = {
+		7D0B997E218EE184003738F7 /* locale-misc.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7D507E60216B8B9E00AFC535 /* Base */,
+				7D0B997D218EE184003738F7 /* en */,
+				7D0B997F218EE1AB003738F7 /* ja */,
+			);
+			name = "locale-misc.strings";
+			sourceTree = "<group>";
+		};
+		7D2E429F218E0385006B1C3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D2E42A0218E0385006B1C3F /* Base */,
+				7D0B997A218EE173003738F7 /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7D2E42A1218E0385006B1C3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D2E42A2218E0385006B1C3F /* Base */,
+				7D0B997B218EE173003738F7 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7D507E64216B8B9F00AFC535 /* LaunchScreen.storyboard */ = {
+		7D2E42BD218E16CB006B1C3F /* History.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7D507E65216B8B9F00AFC535 /* Base */,
+				7D2E42BE218E16CB006B1C3F /* Base */,
+				7D0B9977218EE172003738F7 /* ja */,
 			);
-			name = LaunchScreen.storyboard;
+			name = History.storyboard;
+			sourceTree = "<group>";
+		};
+		7D2E42BF218E16CB006B1C3F /* Konsilo.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D2E42C0218E16CB006B1C3F /* Base */,
+				7D0B9978218EE172003738F7 /* ja */,
+			);
+			name = Konsilo.storyboard;
+			sourceTree = "<group>";
+		};
+		7D2E42C1218E16CC006B1C3F /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D2E42C2218E16CC006B1C3F /* Base */,
+				7D0B9979218EE172003738F7 /* ja */,
+			);
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -461,6 +926,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -522,6 +988,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -579,6 +1046,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOPMENT=0",
+					"STAGING=0",
+				);
 				INFOPLIST_FILE = SagxaDormo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -598,7 +1071,113 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOPMENT=0",
+					"STAGING=0",
+				);
 				INFOPLIST_FILE = SagxaDormo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hubpixie.SagxaDormo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D7387122195DB4E00347597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B30FEBFEC694D83F9BF7E0 /* Pods-SagxaDormo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOPMENT=1",
+					"STAGING=0",
+				);
+				INFOPLIST_FILE = "SagxaDormo/Info-dev.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hubpixie.SagxaDormo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D7387132195DB4E00347597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5EF23F4CD007243D6369885 /* Pods-SagxaDormo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOPMENT=1",
+					"STAGING=0",
+				);
+				INFOPLIST_FILE = "SagxaDormo/Info-dev.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hubpixie.SagxaDormo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D7387402195DB5C00347597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B30FEBFEC694D83F9BF7E0 /* Pods-SagxaDormo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-staging";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOPMENT=0",
+					"STAGING=1",
+				);
+				INFOPLIST_FILE = "SagxaDormo/Info-staging.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hubpixie.SagxaDormo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D7387412195DB5C00347597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5EF23F4CD007243D6369885 /* Pods-SagxaDormo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-staging";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"DEVELOPMENT=0",
+					"STAGING=1",
+				);
+				INFOPLIST_FILE = "SagxaDormo/Info-staging.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -628,6 +1207,24 @@
 			buildConfigurations = (
 				7D507E6B216B8B9F00AFC535 /* Debug */,
 				7D507E6C216B8B9F00AFC535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D7387112195DB4E00347597 /* Build configuration list for PBXNativeTarget "SagxaDormo-dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7387122195DB4E00347597 /* Debug */,
+				7D7387132195DB4E00347597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D73873F2195DB5C00347597 /* Build configuration list for PBXNativeTarget "SagxaDormo-staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7387402195DB5C00347597 /* Debug */,
+				7D7387412195DB5C00347597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

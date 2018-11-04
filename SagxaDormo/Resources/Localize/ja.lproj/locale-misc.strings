@@ -1,0 +1,41 @@
+/* 
+  locale-misc.strings
+  SagxaDormo
+
+  Created by venus.janne on 2018/11/04.
+  Copyright © 2018 com.venuso-janne. All rights reserved.
+*/
+
+//共通
+"Common.Yen" = "円";
+"Common.hasValue.label" = "設定済み";
+"Common.hasNotValue.label" = "未設定";
+"Common.hasVerified.label" = "認証済み";
+"Common.hasNotVerified.label" = "未認証";
+
+"Common.errorMessage.title" = "エラー";
+"Common.warningMessage.title" = "警告";
+
+"Common.sdApi.message.400" = "認証エラー::不正なアクセスと判断されました。(code:400)";
+"Common.sdApi.message.404" = "エラー::ユーザまたは、データが存在しません。(code:404)";
+"Common.sdApi.message.406" = "コンテンツエラー::権限が無いか、ステータスが一致しません。(code:406)";
+"Common.sdApi.message.409" = "データエラー::データが重複しています。(code:409)";
+"Common.sdApi.message.422" = "入力エラー::入力内容が不正です。\n入力内容を確認してください。(code:422)";
+"Common.sdApi.message.500" = "システム内部エラー::時間をおいて再度実行してください。(code:500)";
+"Common.sdApi.message.code" = "通信エラー::サーバとの通信に失敗しました。電波の良いところで実行するか、時間をおいて再度実行してください。(code:%d)";
+
+//プロフィール登録画面
+"UserProfileRegistration.genderTextField.dropdown.list" = "不明,男性,女性,その他";
+
+//ログイン画面
+"UserLogin.emailTextField.check.1" = "メールアドレスを正しく入力してください。";
+
+//特記事項画面
+"ImportantMatters.webview.url" = "特記事項,https://www.ibm.com/support/knowledgecenter/ja/ssw_aix_72/com.ibm.aix.base/notices.htm";
+
+
+//設定画面
+"AppSettings.navigationbar.top.title" = "設定";
+
+//内部ブラウザ
+"Web.errorPage.offline.message" = "ウェブページへのアクセス不可::ウェブページ(%@)は次の理由で読み込めませんでした<br>&nbsp;&nbsp;%@";
