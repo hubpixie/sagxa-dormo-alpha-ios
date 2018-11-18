@@ -6,7 +6,6 @@
 
 import Foundation
 import Alamofire
-import PromiseKit
 
 extension Bool: JSONEncodable {
     func encodeToJSON() -> Any { return self as Any }
@@ -171,16 +170,4 @@ extension KeyedDecodingContainerProtocol {
 
 }
 
-extension RequestBuilder {
-    public func execute() -> Promise<Response<T>>  {
-        let deferred = Promise<Response<T>>.pending()
-        self.execute { (response: Response<T>?, error: Error?) in
-            if let response = response {
-                deferred.resolver.fulfill(response)
-            } else {
-                deferred.resolver.reject(error!)
-            }
-        }
-        return deferred.promise
-    }
-}
+

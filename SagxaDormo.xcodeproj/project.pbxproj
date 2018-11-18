@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0564ED3A1B4E2CDBDA5C3D2B /* Pods_SagxaDormo_staging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88108EF4900FA0B5529BD40 /* Pods_SagxaDormo_staging.framework */; };
+		3B1D023DE12BAC4B1BE15D27 /* Pods_SagxaDormo_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A84BAB365B0AF4C9A28E118 /* Pods_SagxaDormo_dev.framework */; };
 		57454FAFFB07788F7BCB273D /* Pods_SagxaDormo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC9D333AFD206220D7CC86D /* Pods_SagxaDormo.framework */; };
+		61D6BB8D657E5646B433FBBC /* Pods_SagxaDormo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC9D333AFD206220D7CC86D /* Pods_SagxaDormo.framework */; };
 		7D0B997C218EE184003738F7 /* locale-misc.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B997E218EE184003738F7 /* locale-misc.strings */; };
 		7D0B9981218EECD8003738F7 /* error_page.html in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B9980218EECD8003738F7 /* error_page.html */; };
 		7D1CB735218EF1730058FBCA /* UIScrollView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1CB734218EF1730058FBCA /* UIScrollView+ext.swift */; };
@@ -66,7 +69,6 @@
 		7D7387022195DB4E00347597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D507E5B216B8B9E00AFC535 /* AppDelegate.swift */; };
 		7D7387032195DB4E00347597 /* SDTargetSensorSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AF218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift */; };
 		7D7387042195DB4E00347597 /* SDWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AB216B8DBF00D19D1A /* SDWebViewController.swift */; };
-		7D7387062195DB4E00347597 /* Pods_SagxaDormo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC9D333AFD206220D7CC86D /* Pods_SagxaDormo.framework */; };
 		7D7387082195DB4E00347597 /* error_page.html in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B9980218EECD8003738F7 /* error_page.html */; };
 		7D7387092195DB4E00347597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42A1218E0385006B1C3F /* Main.storyboard */; };
 		7D73870A2195DB4E00347597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D507E62216B8B9F00AFC535 /* Assets.xcassets */; };
@@ -100,7 +102,6 @@
 		7D7387302195DB5C00347597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D507E5B216B8B9E00AFC535 /* AppDelegate.swift */; };
 		7D7387312195DB5C00347597 /* SDTargetSensorSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AF218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift */; };
 		7D7387322195DB5C00347597 /* SDWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AB216B8DBF00D19D1A /* SDWebViewController.swift */; };
-		7D7387342195DB5C00347597 /* Pods_SagxaDormo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC9D333AFD206220D7CC86D /* Pods_SagxaDormo.framework */; };
 		7D7387362195DB5C00347597 /* error_page.html in Resources */ = {isa = PBXBuildFile; fileRef = 7D0B9980218EECD8003738F7 /* error_page.html */; };
 		7D7387372195DB5C00347597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42A1218E0385006B1C3F /* Main.storyboard */; };
 		7D7387382195DB5C00347597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D507E62216B8B9F00AFC535 /* Assets.xcassets */; };
@@ -114,11 +115,31 @@
 		7DA4362D2199BB6700D15516 /* SDSplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA4362A2199BB6700D15516 /* SDSplashScreenViewController.swift */; };
 		7DA9A1182195E2970002AD87 /* info-staging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DA9A1162195E2960002AD87 /* info-staging.plist */; };
 		7DA9A1192195E2970002AD87 /* Info-dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DA9A1172195E2960002AD87 /* Info-dev.plist */; };
+		7DC0A565219FDB5E0057A3D1 /* SDAPICore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A564219FDB5E0057A3D1 /* SDAPICore.swift */; };
+		7DC0A566219FDB5E0057A3D1 /* SDAPICore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A564219FDB5E0057A3D1 /* SDAPICore.swift */; };
+		7DC0A567219FDB5E0057A3D1 /* SDAPICore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A564219FDB5E0057A3D1 /* SDAPICore.swift */; };
+		7DC0A569219FDBAF0057A3D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A568219FDBAF0057A3D1 /* User.swift */; };
+		7DC0A56A219FDBAF0057A3D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A568219FDBAF0057A3D1 /* User.swift */; };
+		7DC0A56B219FDBAF0057A3D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A568219FDBAF0057A3D1 /* User.swift */; };
+		7DC0A56D219FDC1C0057A3D1 /* SDAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A56C219FDC1C0057A3D1 /* SDAPIClient.swift */; };
+		7DC0A56E219FDC1C0057A3D1 /* SDAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A56C219FDC1C0057A3D1 /* SDAPIClient.swift */; };
+		7DC0A56F219FDC1C0057A3D1 /* SDAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A56C219FDC1C0057A3D1 /* SDAPIClient.swift */; };
+		7DC0A573219FDF280057A3D1 /* UserForAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A570219FDF280057A3D1 /* UserForAdd.swift */; };
+		7DC0A574219FDF280057A3D1 /* UserForAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A570219FDF280057A3D1 /* UserForAdd.swift */; };
+		7DC0A575219FDF280057A3D1 /* UserForAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A570219FDF280057A3D1 /* UserForAdd.swift */; };
+		7DC0A576219FDF280057A3D1 /* UserForUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A571219FDF280057A3D1 /* UserForUpdate.swift */; };
+		7DC0A577219FDF280057A3D1 /* UserForUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A571219FDF280057A3D1 /* UserForUpdate.swift */; };
+		7DC0A578219FDF280057A3D1 /* UserForUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A571219FDF280057A3D1 /* UserForUpdate.swift */; };
+		7DC0A57D219FEC600057A3D1 /* HogeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A57C219FEC600057A3D1 /* HogeViewModel.swift */; };
+		7DC0A57E219FEC600057A3D1 /* HogeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A57C219FEC600057A3D1 /* HogeViewModel.swift */; };
+		7DC0A57F219FEC600057A3D1 /* HogeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A57C219FEC600057A3D1 /* HogeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A84BAB365B0AF4C9A28E118 /* Pods_SagxaDormo_dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SagxaDormo_dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC9D333AFD206220D7CC86D /* Pods_SagxaDormo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SagxaDormo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41B30FEBFEC694D83F9BF7E0 /* Pods-SagxaDormo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SagxaDormo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo.debug.xcconfig"; sourceTree = "<group>"; };
+		44515B96DC5B1B11E7C34F95 /* Pods-SagxaDormo-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SagxaDormo-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SagxaDormo-dev/Pods-SagxaDormo-dev.debug.xcconfig"; sourceTree = "<group>"; };
+		6D77C26427B165795A747980 /* Pods-SagxaDormo-staging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SagxaDormo-staging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SagxaDormo-staging/Pods-SagxaDormo-staging.debug.xcconfig"; sourceTree = "<group>"; };
 		7D0B9977218EE172003738F7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/History.strings; sourceTree = "<group>"; };
 		7D0B9978218EE172003738F7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Konsilo.strings; sourceTree = "<group>"; };
 		7D0B9979218EE172003738F7 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Login.strings; sourceTree = "<group>"; };
@@ -165,7 +186,17 @@
 		7DA4362A2199BB6700D15516 /* SDSplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSplashScreenViewController.swift; sourceTree = "<group>"; };
 		7DA9A1162195E2960002AD87 /* info-staging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-staging.plist"; sourceTree = "<group>"; };
 		7DA9A1172195E2960002AD87 /* Info-dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-dev.plist"; sourceTree = "<group>"; };
-		E5EF23F4CD007243D6369885 /* Pods-SagxaDormo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SagxaDormo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo.release.xcconfig"; sourceTree = "<group>"; };
+		7DC0A564219FDB5E0057A3D1 /* SDAPICore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDAPICore.swift; sourceTree = "<group>"; };
+		7DC0A568219FDBAF0057A3D1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7DC0A56C219FDC1C0057A3D1 /* SDAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDAPIClient.swift; sourceTree = "<group>"; };
+		7DC0A570219FDF280057A3D1 /* UserForAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserForAdd.swift; sourceTree = "<group>"; };
+		7DC0A571219FDF280057A3D1 /* UserForUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserForUpdate.swift; sourceTree = "<group>"; };
+		7DC0A57C219FEC600057A3D1 /* HogeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeViewModel.swift; sourceTree = "<group>"; };
+		A88108EF4900FA0B5529BD40 /* Pods_SagxaDormo_staging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SagxaDormo_staging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF34DB1E314E0BFD8EB42C8 /* Pods-SagxaDormo-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SagxaDormo-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-SagxaDormo-dev/Pods-SagxaDormo-dev.release.xcconfig"; sourceTree = "<group>"; };
+		D2E7C4C0EF92A54A218E6E73 /* Pods-SagxaDormo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SagxaDormo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo.release.xcconfig"; sourceTree = "<group>"; };
+		EBEAAADB00FDE15B81359966 /* Pods-SagxaDormo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SagxaDormo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo.debug.xcconfig"; sourceTree = "<group>"; };
+		F0AC09CF4DDFC907613ED6C3 /* Pods-SagxaDormo-staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SagxaDormo-staging.release.xcconfig"; path = "Pods/Target Support Files/Pods-SagxaDormo-staging/Pods-SagxaDormo-staging.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57454FAFFB07788F7BCB273D /* Pods_SagxaDormo.framework in Frameworks */,
+				61D6BB8D657E5646B433FBBC /* Pods_SagxaDormo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +213,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D7387062195DB4E00347597 /* Pods_SagxaDormo.framework in Frameworks */,
+				3B1D023DE12BAC4B1BE15D27 /* Pods_SagxaDormo_dev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +221,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D7387342195DB5C00347597 /* Pods_SagxaDormo.framework in Frameworks */,
+				0564ED3A1B4E2CDBDA5C3D2B /* Pods_SagxaDormo_staging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +232,8 @@
 			isa = PBXGroup;
 			children = (
 				3DC9D333AFD206220D7CC86D /* Pods_SagxaDormo.framework */,
+				2A84BAB365B0AF4C9A28E118 /* Pods_SagxaDormo_dev.framework */,
+				A88108EF4900FA0B5529BD40 /* Pods_SagxaDormo_staging.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,8 +241,12 @@
 		734309A70EA19105885429BC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				41B30FEBFEC694D83F9BF7E0 /* Pods-SagxaDormo.debug.xcconfig */,
-				E5EF23F4CD007243D6369885 /* Pods-SagxaDormo.release.xcconfig */,
+				EBEAAADB00FDE15B81359966 /* Pods-SagxaDormo.debug.xcconfig */,
+				D2E7C4C0EF92A54A218E6E73 /* Pods-SagxaDormo.release.xcconfig */,
+				44515B96DC5B1B11E7C34F95 /* Pods-SagxaDormo-dev.debug.xcconfig */,
+				AEF34DB1E314E0BFD8EB42C8 /* Pods-SagxaDormo-dev.release.xcconfig */,
+				6D77C26427B165795A747980 /* Pods-SagxaDormo-staging.debug.xcconfig */,
+				F0AC09CF4DDFC907613ED6C3 /* Pods-SagxaDormo-staging.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -317,6 +355,7 @@
 		7D4B07A0216B8D2900D19D1A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				7DC0A57C219FEC600057A3D1 /* HogeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -338,6 +377,9 @@
 		7D4B07A3216B8D2900D19D1A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7DC0A570219FDF280057A3D1 /* UserForAdd.swift */,
+				7DC0A571219FDF280057A3D1 /* UserForUpdate.swift */,
+				7DC0A568219FDBAF0057A3D1 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -345,6 +387,7 @@
 		7D4B07A4216B8D2900D19D1A /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				7DC0A563219FDB5E0057A3D1 /* SDApi */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -445,6 +488,15 @@
 			path = SagxaDormo;
 			sourceTree = "<group>";
 		};
+		7DC0A563219FDB5E0057A3D1 /* SDApi */ = {
+			isa = PBXGroup;
+			children = (
+				7DC0A56C219FDC1C0057A3D1 /* SDAPIClient.swift */,
+				7DC0A564219FDB5E0057A3D1 /* SDAPICore.swift */,
+			);
+			path = SDApi;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -472,12 +524,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D7387112195DB4E00347597 /* Build configuration list for PBXNativeTarget "SagxaDormo-dev" */;
 			buildPhases = (
-				7D7386E92195DB4E00347597 /* [CP] Check Pods Manifest.lock */,
+				CEDD659B093028B17D9E5190 /* [CP] Check Pods Manifest.lock */,
 				7D7386EA2195DB4E00347597 /* ShellScript */,
 				7D7386EB2195DB4E00347597 /* Sources */,
 				7D7387052195DB4E00347597 /* Frameworks */,
 				7D7387072195DB4E00347597 /* Resources */,
-				7D7387102195DB4E00347597 /* [CP] Embed Pods Frameworks */,
+				65503D4FC755C946596141A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -492,12 +544,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D73873F2195DB5C00347597 /* Build configuration list for PBXNativeTarget "SagxaDormo-staging" */;
 			buildPhases = (
-				7D7387172195DB5C00347597 /* [CP] Check Pods Manifest.lock */,
+				B2ED5B73F38BD5D1E527029F /* [CP] Check Pods Manifest.lock */,
 				7D7387182195DB5C00347597 /* ShellScript */,
 				7D7387192195DB5C00347597 /* Sources */,
 				7D7387332195DB5C00347597 /* Frameworks */,
 				7D7387352195DB5C00347597 /* Resources */,
-				7D73873E2195DB5C00347597 /* [CP] Embed Pods Frameworks */,
+				10B01DEEA6D2760FC357D6F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -595,6 +647,58 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		10B01DEEA6D2760FC357D6F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo-staging/Pods-SagxaDormo-staging-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwaggerClient/SwaggerClient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwaggerClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo-staging/Pods-SagxaDormo-staging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65503D4FC755C946596141A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo-dev/Pods-SagxaDormo-dev-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwaggerClient/SwaggerClient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwaggerClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo-dev/Pods-SagxaDormo-dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7D4B07B0216B8F4B00D19D1A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -607,24 +711,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/SagxaDormo/Resources/Bundle\"\n";
-		};
-		7D7386E92195DB4E00347597 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SagxaDormo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 		7D7386EA2195DB4E00347597 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -639,48 +725,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/SagxaDormo/Resources/Bundle\"\n";
 		};
-		7D7387102195DB4E00347597 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
-				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
-				"${BUILT_PRODUCTS_DIR}/SwaggerClient/SwaggerClient.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwaggerClient.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7D7387172195DB5C00347597 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SagxaDormo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7D7387182195DB5C00347597 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -693,30 +737,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/SagxaDormo/Resources/Bundle\"\n";
-		};
-		7D73873E2195DB5C00347597 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
-				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
-				"${BUILT_PRODUCTS_DIR}/SwaggerClient/SwaggerClient.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwaggerClient.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		918ACA1506CCD07F02B53171 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -744,20 +764,58 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwaggerClient/SwaggerClient.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwaggerClient.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2ED5B73F38BD5D1E527029F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SagxaDormo-staging-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEDD659B093028B17D9E5190 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SagxaDormo-dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -769,17 +827,20 @@
 			files = (
 				7D4B07C3216B94D600D19D1A /* SDLocaleUtil.swift in Sources */,
 				7D2E42BA218E0DBC006B1C3F /* SDKonsiloViewController.swift in Sources */,
+				7DC0A575219FDF280057A3D1 /* UserForAdd.swift in Sources */,
 				7D1CB735218EF1730058FBCA /* UIScrollView+ext.swift in Sources */,
 				7D4B07C0216B93EB00D19D1A /* UIView+ext.swift in Sources */,
 				7D4B07A9216B8D2900D19D1A /* SDMainViewController.swift in Sources */,
 				7D2E42AE218E0597006B1C3F /* SDUsageItemsTwoViewController.swift in Sources */,
 				7D4B07BF216B93EB00D19D1A /* UIColor+ext.swift in Sources */,
+				7DC0A56F219FDC1C0057A3D1 /* SDAPIClient.swift in Sources */,
 				7D2E42AC218E0574006B1C3F /* SDUsageItemsOneViewController.swift in Sources */,
 				7D4B07BE216B93EB00D19D1A /* UIActivityIndicatorView+ext.swift in Sources */,
 				7D2E42BC218E0DDE006B1C3F /* SDHistorioViewController.swift in Sources */,
 				7DA4362D2199BB6700D15516 /* SDSplashScreenViewController.swift in Sources */,
 				7D2E42AA218E04E7006B1C3F /* SDImportantMattersViewController.swift in Sources */,
 				7D4B07BD216B93EB00D19D1A /* UIImage+QRCode.swift in Sources */,
+				7DC0A578219FDF280057A3D1 /* UserForUpdate.swift in Sources */,
 				7D4B07B4216B902D00D19D1A /* String+Regexp+Format+Size.swift in Sources */,
 				7D2E42A8218E041C006B1C3F /* SDLoginViewController.swift in Sources */,
 				7D4B07B5216B902D00D19D1A /* Date+Misc.swift in Sources */,
@@ -787,10 +848,13 @@
 				7D4B07B7216B90FC00D19D1A /* R.generated.swift in Sources */,
 				7D2E42C7218E18C7006B1C3F /* SDUsageItemsViewController.swift in Sources */,
 				7D2E42B4218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift in Sources */,
+				7DC0A56B219FDBAF0057A3D1 /* User.swift in Sources */,
 				7D4B07AD216B8DBF00D19D1A /* SDViewController.swift in Sources */,
 				7D4B07AF216B8DBF00D19D1A /* UIStoryboard+ext.swift in Sources */,
 				7D2E42B2218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift in Sources */,
 				7D507E5C216B8B9E00AFC535 /* AppDelegate.swift in Sources */,
+				7DC0A567219FDB5E0057A3D1 /* SDAPICore.swift in Sources */,
+				7DC0A57F219FEC600057A3D1 /* HogeViewModel.swift in Sources */,
 				7D2E42B0218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift in Sources */,
 				7D4B07AE216B8DBF00D19D1A /* SDWebViewController.swift in Sources */,
 			);
@@ -802,17 +866,20 @@
 			files = (
 				7D7386EC2195DB4E00347597 /* SDLocaleUtil.swift in Sources */,
 				7D7386ED2195DB4E00347597 /* SDKonsiloViewController.swift in Sources */,
+				7DC0A573219FDF280057A3D1 /* UserForAdd.swift in Sources */,
 				7D7386EE2195DB4E00347597 /* UIScrollView+ext.swift in Sources */,
 				7D7386EF2195DB4E00347597 /* UIView+ext.swift in Sources */,
 				7D7386F02195DB4E00347597 /* SDMainViewController.swift in Sources */,
 				7D7386F12195DB4E00347597 /* SDUsageItemsTwoViewController.swift in Sources */,
 				7D7386F22195DB4E00347597 /* UIColor+ext.swift in Sources */,
+				7DC0A56D219FDC1C0057A3D1 /* SDAPIClient.swift in Sources */,
 				7D7386F32195DB4E00347597 /* SDUsageItemsOneViewController.swift in Sources */,
 				7D7386F42195DB4E00347597 /* UIActivityIndicatorView+ext.swift in Sources */,
 				7D7386F52195DB4E00347597 /* SDHistorioViewController.swift in Sources */,
 				7DA4362B2199BB6700D15516 /* SDSplashScreenViewController.swift in Sources */,
 				7D7386F62195DB4E00347597 /* SDImportantMattersViewController.swift in Sources */,
 				7D7386F72195DB4E00347597 /* UIImage+QRCode.swift in Sources */,
+				7DC0A576219FDF280057A3D1 /* UserForUpdate.swift in Sources */,
 				7D7386F82195DB4E00347597 /* String+Regexp+Format+Size.swift in Sources */,
 				7D7386F92195DB4E00347597 /* SDLoginViewController.swift in Sources */,
 				7D7386FA2195DB4E00347597 /* Date+Misc.swift in Sources */,
@@ -820,10 +887,13 @@
 				7D7386FC2195DB4E00347597 /* R.generated.swift in Sources */,
 				7D7386FD2195DB4E00347597 /* SDUsageItemsViewController.swift in Sources */,
 				7D7386FE2195DB4E00347597 /* SDProfiloRedaktiloViewController.swift in Sources */,
+				7DC0A569219FDBAF0057A3D1 /* User.swift in Sources */,
 				7D7386FF2195DB4E00347597 /* SDViewController.swift in Sources */,
 				7D7387002195DB4E00347597 /* UIStoryboard+ext.swift in Sources */,
 				7D7387012195DB4E00347597 /* SDTargetSensorConnectedViewController.swift in Sources */,
 				7D7387022195DB4E00347597 /* AppDelegate.swift in Sources */,
+				7DC0A565219FDB5E0057A3D1 /* SDAPICore.swift in Sources */,
+				7DC0A57D219FEC600057A3D1 /* HogeViewModel.swift in Sources */,
 				7D7387032195DB4E00347597 /* SDTargetSensorSelectViewController.swift in Sources */,
 				7D7387042195DB4E00347597 /* SDWebViewController.swift in Sources */,
 			);
@@ -835,17 +905,20 @@
 			files = (
 				7D73871A2195DB5C00347597 /* SDLocaleUtil.swift in Sources */,
 				7D73871B2195DB5C00347597 /* SDKonsiloViewController.swift in Sources */,
+				7DC0A574219FDF280057A3D1 /* UserForAdd.swift in Sources */,
 				7D73871C2195DB5C00347597 /* UIScrollView+ext.swift in Sources */,
 				7D73871D2195DB5C00347597 /* UIView+ext.swift in Sources */,
 				7D73871E2195DB5C00347597 /* SDMainViewController.swift in Sources */,
 				7D73871F2195DB5C00347597 /* SDUsageItemsTwoViewController.swift in Sources */,
 				7D7387202195DB5C00347597 /* UIColor+ext.swift in Sources */,
+				7DC0A56E219FDC1C0057A3D1 /* SDAPIClient.swift in Sources */,
 				7D7387212195DB5C00347597 /* SDUsageItemsOneViewController.swift in Sources */,
 				7D7387222195DB5C00347597 /* UIActivityIndicatorView+ext.swift in Sources */,
 				7D7387232195DB5C00347597 /* SDHistorioViewController.swift in Sources */,
 				7DA4362C2199BB6700D15516 /* SDSplashScreenViewController.swift in Sources */,
 				7D7387242195DB5C00347597 /* SDImportantMattersViewController.swift in Sources */,
 				7D7387252195DB5C00347597 /* UIImage+QRCode.swift in Sources */,
+				7DC0A577219FDF280057A3D1 /* UserForUpdate.swift in Sources */,
 				7D7387262195DB5C00347597 /* String+Regexp+Format+Size.swift in Sources */,
 				7D7387272195DB5C00347597 /* SDLoginViewController.swift in Sources */,
 				7D7387282195DB5C00347597 /* Date+Misc.swift in Sources */,
@@ -853,10 +926,13 @@
 				7D73872A2195DB5C00347597 /* R.generated.swift in Sources */,
 				7D73872B2195DB5C00347597 /* SDUsageItemsViewController.swift in Sources */,
 				7D73872C2195DB5C00347597 /* SDProfiloRedaktiloViewController.swift in Sources */,
+				7DC0A56A219FDBAF0057A3D1 /* User.swift in Sources */,
 				7D73872D2195DB5C00347597 /* SDViewController.swift in Sources */,
 				7D73872E2195DB5C00347597 /* UIStoryboard+ext.swift in Sources */,
 				7D73872F2195DB5C00347597 /* SDTargetSensorConnectedViewController.swift in Sources */,
 				7D7387302195DB5C00347597 /* AppDelegate.swift in Sources */,
+				7DC0A566219FDB5E0057A3D1 /* SDAPICore.swift in Sources */,
+				7DC0A57E219FEC600057A3D1 /* HogeViewModel.swift in Sources */,
 				7D7387312195DB5C00347597 /* SDTargetSensorSelectViewController.swift in Sources */,
 				7D7387322195DB5C00347597 /* SDWebViewController.swift in Sources */,
 			);
@@ -1042,7 +1118,7 @@
 		};
 		7D507E6B216B8B9F00AFC535 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41B30FEBFEC694D83F9BF7E0 /* Pods-SagxaDormo.debug.xcconfig */;
+			baseConfigurationReference = EBEAAADB00FDE15B81359966 /* Pods-SagxaDormo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1067,7 +1143,7 @@
 		};
 		7D507E6C216B8B9F00AFC535 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5EF23F4CD007243D6369885 /* Pods-SagxaDormo.release.xcconfig */;
+			baseConfigurationReference = D2E7C4C0EF92A54A218E6E73 /* Pods-SagxaDormo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1092,7 +1168,7 @@
 		};
 		7D7387122195DB4E00347597 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41B30FEBFEC694D83F9BF7E0 /* Pods-SagxaDormo.debug.xcconfig */;
+			baseConfigurationReference = 44515B96DC5B1B11E7C34F95 /* Pods-SagxaDormo-dev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
 				CODE_SIGN_STYLE = Automatic;
@@ -1117,7 +1193,7 @@
 		};
 		7D7387132195DB4E00347597 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5EF23F4CD007243D6369885 /* Pods-SagxaDormo.release.xcconfig */;
+			baseConfigurationReference = AEF34DB1E314E0BFD8EB42C8 /* Pods-SagxaDormo-dev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
 				CODE_SIGN_STYLE = Automatic;
@@ -1142,7 +1218,7 @@
 		};
 		7D7387402195DB5C00347597 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41B30FEBFEC694D83F9BF7E0 /* Pods-SagxaDormo.debug.xcconfig */;
+			baseConfigurationReference = 6D77C26427B165795A747980 /* Pods-SagxaDormo-staging.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-staging";
 				CODE_SIGN_STYLE = Automatic;
@@ -1167,7 +1243,7 @@
 		};
 		7D7387412195DB5C00347597 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5EF23F4CD007243D6369885 /* Pods-SagxaDormo.release.xcconfig */;
+			baseConfigurationReference = F0AC09CF4DDFC907613ED6C3 /* Pods-SagxaDormo-staging.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-staging";
 				CODE_SIGN_STYLE = Automatic;

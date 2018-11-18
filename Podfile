@@ -16,20 +16,13 @@ target 'SagxaDormo' do
   commonPods
 end
 
-=begin
-target 'SagxaDormo staging' do
+target 'SagxaDormo-dev' do
   commonPods
-  target 'SagxaDormoTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'SagxaDormoUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 end
-=end
+
+target 'SagxaDormo-staging' do
+  commonPods
+end
 
 post_install do |installer|
   installer.pods_project.build_configurations.each do |config|

@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.license = 'Proprietary'
   s.source_files = 'SwaggerClient/Classes/**/*.swift'
   s.dependency 'Alamofire', '~> 4.7'
-  s.dependency 'PromiseKit', '~> 6.0'
+  s.dependency 'RxSwift', '~> 4.0'
+  s.dependency 'RxCocoa', '~> 4.0'
 end
