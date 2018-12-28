@@ -12,7 +12,7 @@ import Alamofire
 import SwaggerClient
 
 
-class SDAPIClient: SwaggerClientAPI {
+class SDApiClient: SwaggerClientAPI {
     enum HttpStatusCode: Int {
         //不正なアクセス
         case invalidAccess = 400
@@ -35,9 +35,9 @@ class SDAPIClient: SwaggerClientAPI {
     }
     
     #if STAGING
-    static var webApiPath = "http://18.179.170.0:58443/api"
+    static var webApiPath = "http://192.168.10.103:8080"
     #else
-    static var webApiPath = "http://18.179.170.0:58443/api"
+    static var webApiPath = "http://192.168.10.103:8080"
     #endif
     
     // コモーユーザオブジェクト
@@ -68,7 +68,7 @@ class SDAPIClient: SwaggerClientAPI {
             return false
         }
         if let error = error {
-            if error._code == SDAPIClient.HttpStatusCode.firebaseNetworkError.rawValue {
+            if error._code == SDApiClient.HttpStatusCode.firebaseNetworkError.rawValue {
 //                SDMsgViewController.showError(sender: sender, error:(errCode, nil, NSError(domain: "SagxaDormo", code: errCode, userInfo: nil)), extra: nil)
             } else {
 //                SDMsgViewController.showError(sender: sender, error:error, extra: nil)
@@ -88,7 +88,7 @@ class SDAPIClient: SwaggerClientAPI {
         return retStat
     }
 
-    class func prepareHeadersForVeriTrans() {
+    class func prepareSimpleHeaders() {
         customHeaders.removeAll()
         customHeaders["Accept"] = "application/json"
         customHeaders["Content-Type"] = "application/json; charset=utf-8"

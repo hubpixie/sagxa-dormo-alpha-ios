@@ -21,7 +21,6 @@
 		7D2E42AC218E0574006B1C3F /* SDUsageItemsOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AB218E0574006B1C3F /* SDUsageItemsOneViewController.swift */; };
 		7D2E42AE218E0597006B1C3F /* SDUsageItemsTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AD218E0597006B1C3F /* SDUsageItemsTwoViewController.swift */; };
 		7D2E42B0218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AF218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift */; };
-		7D2E42B2218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B1218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift */; };
 		7D2E42B4218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B3218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift */; };
 		7D2E42BA218E0DBC006B1C3F /* SDKonsiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B9218E0DBC006B1C3F /* SDKonsiloViewController.swift */; };
 		7D2E42BC218E0DDE006B1C3F /* SDHistorioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42BB218E0DDE006B1C3F /* SDHistorioViewController.swift */; };
@@ -65,7 +64,6 @@
 		7D7386FE2195DB4E00347597 /* SDProfiloRedaktiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B3218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift */; };
 		7D7386FF2195DB4E00347597 /* SDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AA216B8DBF00D19D1A /* SDViewController.swift */; };
 		7D7387002195DB4E00347597 /* UIStoryboard+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AC216B8DBF00D19D1A /* UIStoryboard+ext.swift */; };
-		7D7387012195DB4E00347597 /* SDTargetSensorConnectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B1218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift */; };
 		7D7387022195DB4E00347597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D507E5B216B8B9E00AFC535 /* AppDelegate.swift */; };
 		7D7387032195DB4E00347597 /* SDTargetSensorSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AF218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift */; };
 		7D7387042195DB4E00347597 /* SDWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AB216B8DBF00D19D1A /* SDWebViewController.swift */; };
@@ -98,7 +96,6 @@
 		7D73872C2195DB5C00347597 /* SDProfiloRedaktiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B3218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift */; };
 		7D73872D2195DB5C00347597 /* SDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AA216B8DBF00D19D1A /* SDViewController.swift */; };
 		7D73872E2195DB5C00347597 /* UIStoryboard+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AC216B8DBF00D19D1A /* UIStoryboard+ext.swift */; };
-		7D73872F2195DB5C00347597 /* SDTargetSensorConnectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42B1218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift */; };
 		7D7387302195DB5C00347597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D507E5B216B8B9E00AFC535 /* AppDelegate.swift */; };
 		7D7387312195DB5C00347597 /* SDTargetSensorSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42AF218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift */; };
 		7D7387322195DB5C00347597 /* SDWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AB216B8DBF00D19D1A /* SDWebViewController.swift */; };
@@ -115,21 +112,18 @@
 		7DA4362D2199BB6700D15516 /* SDSplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA4362A2199BB6700D15516 /* SDSplashScreenViewController.swift */; };
 		7DA9A1182195E2970002AD87 /* info-staging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DA9A1162195E2960002AD87 /* info-staging.plist */; };
 		7DA9A1192195E2970002AD87 /* Info-dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DA9A1172195E2960002AD87 /* Info-dev.plist */; };
-		7DC0A565219FDB5E0057A3D1 /* SDAPICore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A564219FDB5E0057A3D1 /* SDAPICore.swift */; };
-		7DC0A566219FDB5E0057A3D1 /* SDAPICore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A564219FDB5E0057A3D1 /* SDAPICore.swift */; };
-		7DC0A567219FDB5E0057A3D1 /* SDAPICore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A564219FDB5E0057A3D1 /* SDAPICore.swift */; };
+		7DC0A565219FDB5E0057A3D1 /* SDApiCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A564219FDB5E0057A3D1 /* SDApiCore.swift */; };
+		7DC0A566219FDB5E0057A3D1 /* SDApiCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A564219FDB5E0057A3D1 /* SDApiCore.swift */; };
+		7DC0A567219FDB5E0057A3D1 /* SDApiCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A564219FDB5E0057A3D1 /* SDApiCore.swift */; };
 		7DC0A569219FDBAF0057A3D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A568219FDBAF0057A3D1 /* User.swift */; };
 		7DC0A56A219FDBAF0057A3D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A568219FDBAF0057A3D1 /* User.swift */; };
 		7DC0A56B219FDBAF0057A3D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A568219FDBAF0057A3D1 /* User.swift */; };
-		7DC0A56D219FDC1C0057A3D1 /* SDAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A56C219FDC1C0057A3D1 /* SDAPIClient.swift */; };
-		7DC0A56E219FDC1C0057A3D1 /* SDAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A56C219FDC1C0057A3D1 /* SDAPIClient.swift */; };
-		7DC0A56F219FDC1C0057A3D1 /* SDAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A56C219FDC1C0057A3D1 /* SDAPIClient.swift */; };
-		7DC0A573219FDF280057A3D1 /* UserForAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A570219FDF280057A3D1 /* UserForAdd.swift */; };
-		7DC0A574219FDF280057A3D1 /* UserForAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A570219FDF280057A3D1 /* UserForAdd.swift */; };
-		7DC0A575219FDF280057A3D1 /* UserForAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A570219FDF280057A3D1 /* UserForAdd.swift */; };
-		7DC0A576219FDF280057A3D1 /* UserForUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A571219FDF280057A3D1 /* UserForUpdate.swift */; };
-		7DC0A577219FDF280057A3D1 /* UserForUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A571219FDF280057A3D1 /* UserForUpdate.swift */; };
-		7DC0A578219FDF280057A3D1 /* UserForUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A571219FDF280057A3D1 /* UserForUpdate.swift */; };
+		7DC0A56D219FDC1C0057A3D1 /* SDApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A56C219FDC1C0057A3D1 /* SDApiClient.swift */; };
+		7DC0A56E219FDC1C0057A3D1 /* SDApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A56C219FDC1C0057A3D1 /* SDApiClient.swift */; };
+		7DC0A56F219FDC1C0057A3D1 /* SDApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A56C219FDC1C0057A3D1 /* SDApiClient.swift */; };
+		7DC0A576219FDF280057A3D1 /* UserParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A571219FDF280057A3D1 /* UserParam.swift */; };
+		7DC0A577219FDF280057A3D1 /* UserParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A571219FDF280057A3D1 /* UserParam.swift */; };
+		7DC0A578219FDF280057A3D1 /* UserParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A571219FDF280057A3D1 /* UserParam.swift */; };
 		7DC0A57D219FEC600057A3D1 /* HogeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A57C219FEC600057A3D1 /* HogeViewModel.swift */; };
 		7DC0A57E219FEC600057A3D1 /* HogeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A57C219FEC600057A3D1 /* HogeViewModel.swift */; };
 		7DC0A57F219FEC600057A3D1 /* HogeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A57C219FEC600057A3D1 /* HogeViewModel.swift */; };
@@ -156,7 +150,6 @@
 		7D2E42AB218E0574006B1C3F /* SDUsageItemsOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDUsageItemsOneViewController.swift; sourceTree = "<group>"; };
 		7D2E42AD218E0597006B1C3F /* SDUsageItemsTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDUsageItemsTwoViewController.swift; sourceTree = "<group>"; };
 		7D2E42AF218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDTargetSensorSelectViewController.swift; sourceTree = "<group>"; };
-		7D2E42B1218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDTargetSensorConnectedViewController.swift; sourceTree = "<group>"; };
 		7D2E42B3218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDProfiloRedaktiloViewController.swift; sourceTree = "<group>"; };
 		7D2E42B9218E0DBC006B1C3F /* SDKonsiloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKonsiloViewController.swift; sourceTree = "<group>"; };
 		7D2E42BB218E0DDE006B1C3F /* SDHistorioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDHistorioViewController.swift; sourceTree = "<group>"; };
@@ -186,11 +179,10 @@
 		7DA4362A2199BB6700D15516 /* SDSplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSplashScreenViewController.swift; sourceTree = "<group>"; };
 		7DA9A1162195E2960002AD87 /* info-staging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-staging.plist"; sourceTree = "<group>"; };
 		7DA9A1172195E2960002AD87 /* Info-dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-dev.plist"; sourceTree = "<group>"; };
-		7DC0A564219FDB5E0057A3D1 /* SDAPICore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDAPICore.swift; sourceTree = "<group>"; };
+		7DC0A564219FDB5E0057A3D1 /* SDApiCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDApiCore.swift; sourceTree = "<group>"; };
 		7DC0A568219FDBAF0057A3D1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		7DC0A56C219FDC1C0057A3D1 /* SDAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDAPIClient.swift; sourceTree = "<group>"; };
-		7DC0A570219FDF280057A3D1 /* UserForAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserForAdd.swift; sourceTree = "<group>"; };
-		7DC0A571219FDF280057A3D1 /* UserForUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserForUpdate.swift; sourceTree = "<group>"; };
+		7DC0A56C219FDC1C0057A3D1 /* SDApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDApiClient.swift; sourceTree = "<group>"; };
+		7DC0A571219FDF280057A3D1 /* UserParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserParam.swift; sourceTree = "<group>"; };
 		7DC0A57C219FEC600057A3D1 /* HogeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeViewModel.swift; sourceTree = "<group>"; };
 		A88108EF4900FA0B5529BD40 /* Pods_SagxaDormo_staging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SagxaDormo_staging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF34DB1E314E0BFD8EB42C8 /* Pods-SagxaDormo-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SagxaDormo-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-SagxaDormo-dev/Pods-SagxaDormo-dev.release.xcconfig"; sourceTree = "<group>"; };
@@ -334,7 +326,6 @@
 				7D2E42AB218E0574006B1C3F /* SDUsageItemsOneViewController.swift */,
 				7D2E42AD218E0597006B1C3F /* SDUsageItemsTwoViewController.swift */,
 				7D2E42AF218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift */,
-				7D2E42B1218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift */,
 				7D2E42B3218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift */,
 				7D2E42C6218E18C7006B1C3F /* SDUsageItemsViewController.swift */,
 			);
@@ -377,8 +368,7 @@
 		7D4B07A3216B8D2900D19D1A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7DC0A570219FDF280057A3D1 /* UserForAdd.swift */,
-				7DC0A571219FDF280057A3D1 /* UserForUpdate.swift */,
+				7DC0A571219FDF280057A3D1 /* UserParam.swift */,
 				7DC0A568219FDBAF0057A3D1 /* User.swift */,
 			);
 			path = Models;
@@ -491,8 +481,8 @@
 		7DC0A563219FDB5E0057A3D1 /* SDApi */ = {
 			isa = PBXGroup;
 			children = (
-				7DC0A56C219FDC1C0057A3D1 /* SDAPIClient.swift */,
-				7DC0A564219FDB5E0057A3D1 /* SDAPICore.swift */,
+				7DC0A56C219FDC1C0057A3D1 /* SDApiClient.swift */,
+				7DC0A564219FDB5E0057A3D1 /* SDApiCore.swift */,
 			);
 			path = SDApi;
 			sourceTree = "<group>";
@@ -827,20 +817,19 @@
 			files = (
 				7D4B07C3216B94D600D19D1A /* SDLocaleUtil.swift in Sources */,
 				7D2E42BA218E0DBC006B1C3F /* SDKonsiloViewController.swift in Sources */,
-				7DC0A575219FDF280057A3D1 /* UserForAdd.swift in Sources */,
 				7D1CB735218EF1730058FBCA /* UIScrollView+ext.swift in Sources */,
 				7D4B07C0216B93EB00D19D1A /* UIView+ext.swift in Sources */,
 				7D4B07A9216B8D2900D19D1A /* SDMainViewController.swift in Sources */,
 				7D2E42AE218E0597006B1C3F /* SDUsageItemsTwoViewController.swift in Sources */,
 				7D4B07BF216B93EB00D19D1A /* UIColor+ext.swift in Sources */,
-				7DC0A56F219FDC1C0057A3D1 /* SDAPIClient.swift in Sources */,
+				7DC0A56F219FDC1C0057A3D1 /* SDApiClient.swift in Sources */,
 				7D2E42AC218E0574006B1C3F /* SDUsageItemsOneViewController.swift in Sources */,
 				7D4B07BE216B93EB00D19D1A /* UIActivityIndicatorView+ext.swift in Sources */,
 				7D2E42BC218E0DDE006B1C3F /* SDHistorioViewController.swift in Sources */,
 				7DA4362D2199BB6700D15516 /* SDSplashScreenViewController.swift in Sources */,
 				7D2E42AA218E04E7006B1C3F /* SDImportantMattersViewController.swift in Sources */,
 				7D4B07BD216B93EB00D19D1A /* UIImage+QRCode.swift in Sources */,
-				7DC0A578219FDF280057A3D1 /* UserForUpdate.swift in Sources */,
+				7DC0A578219FDF280057A3D1 /* UserParam.swift in Sources */,
 				7D4B07B4216B902D00D19D1A /* String+Regexp+Format+Size.swift in Sources */,
 				7D2E42A8218E041C006B1C3F /* SDLoginViewController.swift in Sources */,
 				7D4B07B5216B902D00D19D1A /* Date+Misc.swift in Sources */,
@@ -851,9 +840,8 @@
 				7DC0A56B219FDBAF0057A3D1 /* User.swift in Sources */,
 				7D4B07AD216B8DBF00D19D1A /* SDViewController.swift in Sources */,
 				7D4B07AF216B8DBF00D19D1A /* UIStoryboard+ext.swift in Sources */,
-				7D2E42B2218E063F006B1C3F /* SDTargetSensorConnectedViewController.swift in Sources */,
 				7D507E5C216B8B9E00AFC535 /* AppDelegate.swift in Sources */,
-				7DC0A567219FDB5E0057A3D1 /* SDAPICore.swift in Sources */,
+				7DC0A567219FDB5E0057A3D1 /* SDApiCore.swift in Sources */,
 				7DC0A57F219FEC600057A3D1 /* HogeViewModel.swift in Sources */,
 				7D2E42B0218E05DD006B1C3F /* SDTargetSensorSelectViewController.swift in Sources */,
 				7D4B07AE216B8DBF00D19D1A /* SDWebViewController.swift in Sources */,
@@ -866,20 +854,19 @@
 			files = (
 				7D7386EC2195DB4E00347597 /* SDLocaleUtil.swift in Sources */,
 				7D7386ED2195DB4E00347597 /* SDKonsiloViewController.swift in Sources */,
-				7DC0A573219FDF280057A3D1 /* UserForAdd.swift in Sources */,
 				7D7386EE2195DB4E00347597 /* UIScrollView+ext.swift in Sources */,
 				7D7386EF2195DB4E00347597 /* UIView+ext.swift in Sources */,
 				7D7386F02195DB4E00347597 /* SDMainViewController.swift in Sources */,
 				7D7386F12195DB4E00347597 /* SDUsageItemsTwoViewController.swift in Sources */,
 				7D7386F22195DB4E00347597 /* UIColor+ext.swift in Sources */,
-				7DC0A56D219FDC1C0057A3D1 /* SDAPIClient.swift in Sources */,
+				7DC0A56D219FDC1C0057A3D1 /* SDApiClient.swift in Sources */,
 				7D7386F32195DB4E00347597 /* SDUsageItemsOneViewController.swift in Sources */,
 				7D7386F42195DB4E00347597 /* UIActivityIndicatorView+ext.swift in Sources */,
 				7D7386F52195DB4E00347597 /* SDHistorioViewController.swift in Sources */,
 				7DA4362B2199BB6700D15516 /* SDSplashScreenViewController.swift in Sources */,
 				7D7386F62195DB4E00347597 /* SDImportantMattersViewController.swift in Sources */,
 				7D7386F72195DB4E00347597 /* UIImage+QRCode.swift in Sources */,
-				7DC0A576219FDF280057A3D1 /* UserForUpdate.swift in Sources */,
+				7DC0A576219FDF280057A3D1 /* UserParam.swift in Sources */,
 				7D7386F82195DB4E00347597 /* String+Regexp+Format+Size.swift in Sources */,
 				7D7386F92195DB4E00347597 /* SDLoginViewController.swift in Sources */,
 				7D7386FA2195DB4E00347597 /* Date+Misc.swift in Sources */,
@@ -890,9 +877,8 @@
 				7DC0A569219FDBAF0057A3D1 /* User.swift in Sources */,
 				7D7386FF2195DB4E00347597 /* SDViewController.swift in Sources */,
 				7D7387002195DB4E00347597 /* UIStoryboard+ext.swift in Sources */,
-				7D7387012195DB4E00347597 /* SDTargetSensorConnectedViewController.swift in Sources */,
 				7D7387022195DB4E00347597 /* AppDelegate.swift in Sources */,
-				7DC0A565219FDB5E0057A3D1 /* SDAPICore.swift in Sources */,
+				7DC0A565219FDB5E0057A3D1 /* SDApiCore.swift in Sources */,
 				7DC0A57D219FEC600057A3D1 /* HogeViewModel.swift in Sources */,
 				7D7387032195DB4E00347597 /* SDTargetSensorSelectViewController.swift in Sources */,
 				7D7387042195DB4E00347597 /* SDWebViewController.swift in Sources */,
@@ -905,20 +891,19 @@
 			files = (
 				7D73871A2195DB5C00347597 /* SDLocaleUtil.swift in Sources */,
 				7D73871B2195DB5C00347597 /* SDKonsiloViewController.swift in Sources */,
-				7DC0A574219FDF280057A3D1 /* UserForAdd.swift in Sources */,
 				7D73871C2195DB5C00347597 /* UIScrollView+ext.swift in Sources */,
 				7D73871D2195DB5C00347597 /* UIView+ext.swift in Sources */,
 				7D73871E2195DB5C00347597 /* SDMainViewController.swift in Sources */,
 				7D73871F2195DB5C00347597 /* SDUsageItemsTwoViewController.swift in Sources */,
 				7D7387202195DB5C00347597 /* UIColor+ext.swift in Sources */,
-				7DC0A56E219FDC1C0057A3D1 /* SDAPIClient.swift in Sources */,
+				7DC0A56E219FDC1C0057A3D1 /* SDApiClient.swift in Sources */,
 				7D7387212195DB5C00347597 /* SDUsageItemsOneViewController.swift in Sources */,
 				7D7387222195DB5C00347597 /* UIActivityIndicatorView+ext.swift in Sources */,
 				7D7387232195DB5C00347597 /* SDHistorioViewController.swift in Sources */,
 				7DA4362C2199BB6700D15516 /* SDSplashScreenViewController.swift in Sources */,
 				7D7387242195DB5C00347597 /* SDImportantMattersViewController.swift in Sources */,
 				7D7387252195DB5C00347597 /* UIImage+QRCode.swift in Sources */,
-				7DC0A577219FDF280057A3D1 /* UserForUpdate.swift in Sources */,
+				7DC0A577219FDF280057A3D1 /* UserParam.swift in Sources */,
 				7D7387262195DB5C00347597 /* String+Regexp+Format+Size.swift in Sources */,
 				7D7387272195DB5C00347597 /* SDLoginViewController.swift in Sources */,
 				7D7387282195DB5C00347597 /* Date+Misc.swift in Sources */,
@@ -929,9 +914,8 @@
 				7DC0A56A219FDBAF0057A3D1 /* User.swift in Sources */,
 				7D73872D2195DB5C00347597 /* SDViewController.swift in Sources */,
 				7D73872E2195DB5C00347597 /* UIStoryboard+ext.swift in Sources */,
-				7D73872F2195DB5C00347597 /* SDTargetSensorConnectedViewController.swift in Sources */,
 				7D7387302195DB5C00347597 /* AppDelegate.swift in Sources */,
-				7DC0A566219FDB5E0057A3D1 /* SDAPICore.swift in Sources */,
+				7DC0A566219FDB5E0057A3D1 /* SDApiCore.swift in Sources */,
 				7DC0A57E219FEC600057A3D1 /* HogeViewModel.swift in Sources */,
 				7D7387312195DB5C00347597 /* SDTargetSensorSelectViewController.swift in Sources */,
 				7D7387322195DB5C00347597 /* SDWebViewController.swift in Sources */,

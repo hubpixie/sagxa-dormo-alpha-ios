@@ -24,6 +24,7 @@ extension UIActivityIndicatorView {
         indicator.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         indicator.center = CGPoint(x: loadingView.frame.size.width / 2,
                                    y: loadingView.frame.size.height / 2)
+        indicator.color = UIColor.red.withAlphaComponent(0.5)
         indicator.style = .whiteLarge
         indicator.hidesWhenStopped = true
 
@@ -55,6 +56,13 @@ extension UIActivityIndicatorView {
         }
     }
 
+    func adjustToPosition(frame: CGRect) {
+        self.superview?.backgroundColor = .clear
+        self.style = .gray
+        self.color = UIColor.red.withAlphaComponent(0.5)
+        self.superview?.center = CGPoint(x: frame.origin.x + frame.width / 8 , y: frame.origin.y + frame.height / 2)
+    }
+    
     func stopAnimatingEx(sender: Any?) {
         if let sender = sender as? UIButton {
             sender.isEnabled = true

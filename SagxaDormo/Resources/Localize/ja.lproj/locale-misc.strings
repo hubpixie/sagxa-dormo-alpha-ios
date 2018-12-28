@@ -25,7 +25,13 @@
 "Common.sdApi.message.code" = "通信エラー::サーバとの通信に失敗しました。電波の良いところで実行するか、時間をおいて再度実行してください。(code:%d)";
 
 //プロフィール登録画面
-"UserProfileRegistration.genderTextField.dropdown.list" = "不明,男性,女性,その他";
+"ProfiloRedaktilo.genderTextField.dropdown.list" = "男性,女性,その他";
+"ProfiloRedaktilo.registerButton.add.title" = "登録";
+"ProfiloRedaktilo.registerButton.add.successMessage" = "登録が正常に行われました";
+"ProfiloRedaktilo.registerButton.add.failMessage" = "登録が失敗しました (error: %d)";
+"ProfiloRedaktilo.registerButton.update.title" = "更新";
+"ProfiloRedaktilo.registerButton.update.successMessage" = "更新が正常に行われました";
+"ProfiloRedaktilo.registerButton.update.failMessage" = "更新が失敗しました (error: %d)";
 
 //ログイン画面
 "UserLogin.emailTextField.check.1" = "メールアドレスを正しく入力してください。";

@@ -7,8 +7,6 @@
 
 import Foundation
 
-
-
 public struct User: Codable {
 
     public enum Gender: String, Codable { 
@@ -19,46 +17,31 @@ public struct User: Codable {
         
         static let allValues = [unknown, male, female, other]
     }
-    /** 電話番号 */
-    public var phoneNumber: String
 
     /** ニックネーム */
     public var nickname: String
 
     /** 生年月日 */
-    public var birthday: String?
+    //public var birthday: String?
     /** 性別 */
-    public var gender: Gender?
+    //public var gender: Gender?
 
-    /** FCMトークン */
-    public var fcmToken: String?
-
-    /** Firebaseに登録されているメールアドレス */
+    /** メールアドレス */
     public var email: String?
-    
-    /** Firebaseに登録されているメールアドレスの承認状態((admin.auth.UserRecord.emailVerified)) */
-    public var emailVerified: Bool?
-    
-    public init(phoneNumber: String, nickname: String, birthday: String?, gender: Gender?, fcmToken: String?, email: String?, emailVerified: Bool?) {
-        self.phoneNumber = phoneNumber
+
+    /** パスワード */
+    public var password: String?
+
+    public init(nickname: String, /*birthday: String?, gender: Gender?,*/ email: String?, password: String?) {
         self.nickname = nickname
-        self.birthday = birthday
-        self.gender = gender
-        self.fcmToken = fcmToken
         self.email = email
-        self.emailVerified = emailVerified
+        self.password = password
     }
 
     public enum CodingKeys: String, CodingKey { 
-        case phoneNumber = "phone_number"
         case nickname
-        case birthday
-        case gender
-        case fcmToken = "fcm_token"
         case email
-        case emailVerified = "email_verified"
+        case password = "password"
     }
-
-
 }
 

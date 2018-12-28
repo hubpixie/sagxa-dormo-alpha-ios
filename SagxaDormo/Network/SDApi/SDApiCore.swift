@@ -11,14 +11,14 @@ import Alamofire
 import RxSwift
 import SwaggerClient
 
-class SDAPICore {
+class SDApiCore {
     /**
      ユーザー取得
      
      - parameter completion: completion handler to receive the data and the error objects
      */
-    class func getUser(completion: @escaping ((_ data: User?,_ error: Error?) -> Void)) {
-        getUserWithRequestBuilder().execute { (response, error) -> Void in
+    class func getUser(body: UserParam?, completion: @escaping ((_ data: User?,_ error: Error?) -> Void)) {
+        getUserWithRequestBuilder(body: body).execute { (response, error) -> Void in
             completion(response?.body, error)
         }
     }
@@ -28,9 +28,9 @@ class SDAPICore {
 
      - returns: Observable<User>
      */
-    class func getUser() -> Observable<User> {
+    class func getUser(body: UserParam?) -> Observable<User> {
         return Observable.create { observer -> Disposable in
-            getUser() { data, error in
+            getUser(body: body) { data, error in
                 if let error = error {
                     observer.on(.error(error))
                 } else {
@@ -52,16 +52,17 @@ class SDAPICore {
      
      - returns: RequestBuilder<User>
      */
-    class func getUserWithRequestBuilder() -> RequestBuilder<User> {
-        let path = "/client/user"
-        let URLString = SDAPIClient.webApiPath + path
-        let parameters: [String:Any]? = nil
+    class func getUserWithRequestBuilder(body: UserParam?) -> RequestBuilder<User> {
+        let path = "/users/_"
+        let URLString = SDApiClient.webApiPath + path
+        let parameters: [String: Any]? = nil//JSONEncodingHelper.encodingParameters(forEncodableObject: body)
         
-        let url = URLComponents(string: URLString)
+        var url = URLComponents(string: URLString)
+        url?.queryItems = APIHelper.mapValuesToQueryItems(["user[name]": body?.nickname])
 
         let requestBuilder: RequestBuilder<User>.Type = SwaggerClientAPI.requestBuilderFactory.getBuilder()
 
-        return requestBuilder.init(method: "GET", URLString: (url?.string ?? URLString), parameters: parameters, isBody: true)
+        return requestBuilder.init(method: "GET", URLString: (url?.string ?? URLString), parameters: parameters, isBody: false)
     }
     
 
@@ -71,7 +72,7 @@ class SDAPICore {
      - parameter body: (body)  (optional)
      - parameter completion: completion handler to receive the data and the error objects
      */
-    class func registerUser(body: UserForAdd? = nil, completion: @escaping ((_ data: Void?,_ error: Error?) -> Void)) {
+    class func registerUser(body: User? = nil, completion: @escaping ((_ data: Void?,_ error: Error?) -> Void)) {
         registerUserWithRequestBuilder(body: body).execute { (response, error) -> Void in
             if error == nil {
                 completion((), error)
@@ -87,7 +88,7 @@ class SDAPICore {
      - parameter body: (body)  (optional)
      - returns: Observable<Void>
      */
-    class func registerUser(body: UserForAdd? = nil) -> Observable<Void>  {
+    class func registerUser(body: User? = nil) -> Observable<Void>  {
         return Observable.create { observer -> Disposable in
             registerUser(body: body) { data, error in
                 if let error = error {
@@ -114,11 +115,10 @@ class SDAPICore {
      
      - returns: RequestBuilder<Void>
      */
-    class func registerUserWithRequestBuilder(body: UserForAdd? = nil) -> RequestBuilder<Void> {
-        let path = "/client/user"
-        let URLString = SDAPIClient.webApiPath + path
+    class func registerUserWithRequestBuilder(body: User? = nil) -> RequestBuilder<Void> {
+        let path = "/users"
+        let URLString = SDApiClient.webApiPath + path
         let parameters = JSONEncodingHelper.encodingParameters(forEncodableObject: body)
-        //let parameters = String(data: try! JSONEncoder().encode(body), encoding: String.Encoding.utf16)
 
         let url = URLComponents(string: URLString)
 
@@ -133,7 +133,7 @@ class SDAPICore {
      - parameter body: (body)  (optional)
      - parameter completion: completion handler to receive the data and the error objects
      */
-    class func updateUser(body: UserForUpdate? = nil, completion: @escaping ((_ data: Void?,_ error: Error?) -> Void)) {
+    class func updateUser(body: UserParam? = nil, completion: @escaping ((_ data: Void?,_ error: Error?) -> Void)) {
         updateUserWithRequestBuilder(body: body).execute { (response, error) -> Void in
             if error == nil {
                 completion((), error)
@@ -149,7 +149,7 @@ class SDAPICore {
      - parameter body: (body)  (optional)
      - returns: Observable<Void>
      */
-    class func updateUser(body: UserForUpdate? = nil) -> Observable<Void>  {
+    class func updateUser(body: UserParam? = nil) -> Observable<Void>  {
         return Observable.create { observer -> Disposable in
             updateUser(body: body) { data, error in
                 if let error = error {
@@ -176,12 +176,13 @@ class SDAPICore {
      
      - returns: RequestBuilder<Void>
      */
-    class func updateUserWithRequestBuilder(body: UserForUpdate? = nil) -> RequestBuilder<Void> {
-        let path = "/client/user"
-        let URLString = SDAPIClient.webApiPath + path
+    class func updateUserWithRequestBuilder(body: UserParam? = nil) -> RequestBuilder<Void> {
+        let path = "/users"
+        let URLString = SDApiClient.webApiPath + path
         let parameters = JSONEncodingHelper.encodingParameters(forEncodableObject: body)
 
-        let url = URLComponents(string: URLString)
+        var url = URLComponents(string: URLString)
+        url?.queryItems = APIHelper.mapValuesToQueryItems(["user[nickname]": body?.nickname])
 
         let requestBuilder: RequestBuilder<Void>.Type = SwaggerClientAPI.requestBuilderFactory.getNonDecodableBuilder()
 
@@ -234,8 +235,8 @@ class SDAPICore {
      - returns: RequestBuilder<Void>
      */
     class func deleteUserWithRequestBuilder() -> RequestBuilder<Void> {
-        let path = "/client/user"
-        let URLString = SDAPIClient.webApiPath + path
+        let path = "/users"
+        let URLString = SDApiClient.webApiPath + path
         let parameters: [String:Any]? = nil
         
         let url = URLComponents(string: URLString)

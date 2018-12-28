@@ -179,7 +179,7 @@ struct R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    /// This `R.string.localeMisc` struct is generated, and contains static references to 19 localization keys.
+    /// This `R.string.localeMisc` struct is generated, and contains static references to 25 localization keys.
     struct localeMisc {
       /// en translation: ウェブページへのアクセス不可::ウェブページ(%@)は次の理由で読み込めませんでした<br>&nbsp;&nbsp;%@
       /// 
@@ -209,10 +209,6 @@ struct R: Rswift.Validatable {
       /// 
       /// Locales: en, ja
       static let userLoginEmailTextFieldCheck1 = Rswift.StringResource(key: "UserLogin.emailTextField.check.1", tableName: "locale-misc", bundle: R.hostingBundle, locales: ["en", "ja"], comment: nil)
-      /// en translation: 不明,男性,女性,その他
-      /// 
-      /// Locales: en, ja
-      static let userProfileRegistrationGenderTextFieldDropdownList = Rswift.StringResource(key: "UserProfileRegistration.genderTextField.dropdown.list", tableName: "locale-misc", bundle: R.hostingBundle, locales: ["en", "ja"], comment: nil)
       /// en translation: 入力エラー::入力内容が不正です。 入力内容を確認してください。(code:422)
       /// 
       /// Locales: en, ja
@@ -221,6 +217,18 @@ struct R: Rswift.Validatable {
       /// 
       /// Locales: en, ja
       static let commonYen = Rswift.StringResource(key: "Common.Yen", tableName: "locale-misc", bundle: R.hostingBundle, locales: ["en", "ja"], comment: nil)
+      /// en translation: 更新
+      /// 
+      /// Locales: en, ja
+      static let profiloRedaktiloRegisterButtonUpdateTitle = Rswift.StringResource(key: "ProfiloRedaktilo.registerButton.update.title", tableName: "locale-misc", bundle: R.hostingBundle, locales: ["en", "ja"], comment: nil)
+      /// en translation: 更新が失敗しました (error: %d)
+      /// 
+      /// Locales: en, ja
+      static let profiloRedaktiloRegisterButtonUpdateFailMessage = Rswift.StringResource(key: "ProfiloRedaktilo.registerButton.update.failMessage", tableName: "locale-misc", bundle: R.hostingBundle, locales: ["en", "ja"], comment: nil)
+      /// en translation: 更新が正常に行われました
+      /// 
+      /// Locales: en, ja
+      static let profiloRedaktiloRegisterButtonUpdateSuccessMessage = Rswift.StringResource(key: "ProfiloRedaktilo.registerButton.update.successMessage", tableName: "locale-misc", bundle: R.hostingBundle, locales: ["en", "ja"], comment: nil)
       /// en translation: 未設定
       /// 
       /// Locales: en, ja
@@ -233,6 +241,22 @@ struct R: Rswift.Validatable {
       /// 
       /// Locales: en, ja
       static let importantMattersWebviewUrl = Rswift.StringResource(key: "ImportantMatters.webview.url", tableName: "locale-misc", bundle: R.hostingBundle, locales: ["en", "ja"], comment: nil)
+      /// en translation: 男性,女性,その他
+      /// 
+      /// Locales: en, ja
+      static let profiloRedaktiloGenderTextFieldDropdownList = Rswift.StringResource(key: "ProfiloRedaktilo.genderTextField.dropdown.list", tableName: "locale-misc", bundle: R.hostingBundle, locales: ["en", "ja"], comment: nil)
+      /// en translation: 登録
+      /// 
+      /// Locales: en, ja
+      static let profiloRedaktiloRegisterButtonAddTitle = Rswift.StringResource(key: "ProfiloRedaktilo.registerButton.add.title", tableName: "locale-misc", bundle: R.hostingBundle, locales: ["en", "ja"], comment: nil)
+      /// en translation: 登録が失敗しました (error: %d)
+      /// 
+      /// Locales: en, ja
+      static let profiloRedaktiloRegisterButtonAddFailMessage = Rswift.StringResource(key: "ProfiloRedaktilo.registerButton.add.failMessage", tableName: "locale-misc", bundle: R.hostingBundle, locales: ["en", "ja"], comment: nil)
+      /// en translation: 登録が正常に行われました
+      /// 
+      /// Locales: en, ja
+      static let profiloRedaktiloRegisterButtonAddSuccessMessage = Rswift.StringResource(key: "ProfiloRedaktilo.registerButton.add.successMessage", tableName: "locale-misc", bundle: R.hostingBundle, locales: ["en", "ja"], comment: nil)
       /// en translation: 設定
       /// 
       /// Locales: en, ja
@@ -307,13 +331,6 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("UserLogin.emailTextField.check.1", tableName: "locale-misc", bundle: R.hostingBundle, comment: "")
       }
       
-      /// en translation: 不明,男性,女性,その他
-      /// 
-      /// Locales: en, ja
-      static func userProfileRegistrationGenderTextFieldDropdownList(_: Void = ()) -> String {
-        return NSLocalizedString("UserProfileRegistration.genderTextField.dropdown.list", tableName: "locale-misc", bundle: R.hostingBundle, comment: "")
-      }
-      
       /// en translation: 入力エラー::入力内容が不正です。 入力内容を確認してください。(code:422)
       /// 
       /// Locales: en, ja
@@ -326,6 +343,27 @@ struct R: Rswift.Validatable {
       /// Locales: en, ja
       static func commonYen(_: Void = ()) -> String {
         return NSLocalizedString("Common.Yen", tableName: "locale-misc", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: 更新
+      /// 
+      /// Locales: en, ja
+      static func profiloRedaktiloRegisterButtonUpdateTitle(_: Void = ()) -> String {
+        return NSLocalizedString("ProfiloRedaktilo.registerButton.update.title", tableName: "locale-misc", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: 更新が失敗しました (error: %d)
+      /// 
+      /// Locales: en, ja
+      static func profiloRedaktiloRegisterButtonUpdateFailMessage(_ value1: Int) -> String {
+        return String(format: NSLocalizedString("ProfiloRedaktilo.registerButton.update.failMessage", tableName: "locale-misc", bundle: R.hostingBundle, comment: ""), locale: R.applicationLocale, value1)
+      }
+      
+      /// en translation: 更新が正常に行われました
+      /// 
+      /// Locales: en, ja
+      static func profiloRedaktiloRegisterButtonUpdateSuccessMessage(_: Void = ()) -> String {
+        return NSLocalizedString("ProfiloRedaktilo.registerButton.update.successMessage", tableName: "locale-misc", bundle: R.hostingBundle, comment: "")
       }
       
       /// en translation: 未設定
@@ -347,6 +385,34 @@ struct R: Rswift.Validatable {
       /// Locales: en, ja
       static func importantMattersWebviewUrl(_: Void = ()) -> String {
         return NSLocalizedString("ImportantMatters.webview.url", tableName: "locale-misc", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: 男性,女性,その他
+      /// 
+      /// Locales: en, ja
+      static func profiloRedaktiloGenderTextFieldDropdownList(_: Void = ()) -> String {
+        return NSLocalizedString("ProfiloRedaktilo.genderTextField.dropdown.list", tableName: "locale-misc", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: 登録
+      /// 
+      /// Locales: en, ja
+      static func profiloRedaktiloRegisterButtonAddTitle(_: Void = ()) -> String {
+        return NSLocalizedString("ProfiloRedaktilo.registerButton.add.title", tableName: "locale-misc", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: 登録が失敗しました (error: %d)
+      /// 
+      /// Locales: en, ja
+      static func profiloRedaktiloRegisterButtonAddFailMessage(_ value1: Int) -> String {
+        return String(format: NSLocalizedString("ProfiloRedaktilo.registerButton.add.failMessage", tableName: "locale-misc", bundle: R.hostingBundle, comment: ""), locale: R.applicationLocale, value1)
+      }
+      
+      /// en translation: 登録が正常に行われました
+      /// 
+      /// Locales: en, ja
+      static func profiloRedaktiloRegisterButtonAddSuccessMessage(_: Void = ()) -> String {
+        return NSLocalizedString("ProfiloRedaktilo.registerButton.add.successMessage", tableName: "locale-misc", bundle: R.hostingBundle, comment: "")
       }
       
       /// en translation: 設定

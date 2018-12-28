@@ -17,8 +17,8 @@ class SDSplashScreenViewController: SDViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.performSegue(withIdentifier: R.segue.sdSplashScreenViewController.homeSegue.identifier, sender: self)
-        //self.startLoginVC()
+        //self.performSegue(withIdentifier: R.segue.sdSplashScreenViewController.homeSegue.identifier, sender: self)
+        self.startLoginVC()
     }
 
     /*
