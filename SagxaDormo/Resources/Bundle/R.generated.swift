@@ -55,8 +55,23 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.segue` struct is generated, and contains static references to 1 view controllers.
+  /// This `R.segue` struct is generated, and contains static references to 2 view controllers.
   struct segue {
+    /// This struct is generated for `SDLoginViewController`, and contains static references to 1 segues.
+    struct sdLoginViewController {
+      /// Segue identifier `TestProfileImportMattersSegue`.
+      static let testProfileImportMattersSegue: Rswift.StoryboardSegueIdentifier<SDPushFadeSegue, SDLoginViewController, SDImportantMattersViewController> = Rswift.StoryboardSegueIdentifier(identifier: "TestProfileImportMattersSegue")
+      
+      /// Optionally returns a typed version of segue `TestProfileImportMattersSegue`.
+      /// Returns nil if either the segue identifier, the source, destination, or segue types don't match.
+      /// For use inside `prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)`.
+      static func testProfileImportMattersSegue(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<SDPushFadeSegue, SDLoginViewController, SDImportantMattersViewController>? {
+        return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.sdLoginViewController.testProfileImportMattersSegue, segue: segue)
+      }
+      
+      fileprivate init() {}
+    }
+    
     /// This struct is generated for `SDSplashScreenViewController`, and contains static references to 1 segues.
     struct sdSplashScreenViewController {
       /// Segue identifier `homeSegue`.
@@ -610,6 +625,7 @@ struct _R: Rswift.Validatable {
   struct storyboard: Rswift.Validatable {
     static func validate() throws {
       try main.validate()
+      try login.validate()
     }
     
     struct history: Rswift.StoryboardResourceWithInitialControllerType {
@@ -639,11 +655,20 @@ struct _R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    struct login: Rswift.StoryboardResourceWithInitialControllerType {
+    struct login: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
       typealias InitialController = UIKit.UINavigationController
       
       let bundle = R.hostingBundle
       let name = "Login"
+      let profiloRedaktiloVC = StoryboardViewControllerResource<SDProfiloRedaktiloViewController>(identifier: "ProfiloRedaktiloVC")
+      
+      func profiloRedaktiloVC(_: Void = ()) -> SDProfiloRedaktiloViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: profiloRedaktiloVC)
+      }
+      
+      static func validate() throws {
+        if _R.storyboard.login().profiloRedaktiloVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'profiloRedaktiloVC' could not be loaded from storyboard 'Login' as 'SDProfiloRedaktiloViewController'.") }
+      }
       
       fileprivate init() {}
     }

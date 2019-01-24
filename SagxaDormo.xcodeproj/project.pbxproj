@@ -28,6 +28,9 @@
 		7D2E42C4218E16CC006B1C3F /* Konsilo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42BF218E16CB006B1C3F /* Konsilo.storyboard */; };
 		7D2E42C5218E16CC006B1C3F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E42C1218E16CC006B1C3F /* Login.storyboard */; };
 		7D2E42C7218E18C7006B1C3F /* SDUsageItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E42C6218E18C7006B1C3F /* SDUsageItemsViewController.swift */; };
+		7D2F325421F9F79F0062B78E /* FooViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F325321F9F79F0062B78E /* FooViewModel.swift */; };
+		7D2F325521F9F79F0062B78E /* FooViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F325321F9F79F0062B78E /* FooViewModel.swift */; };
+		7D2F325621F9F79F0062B78E /* FooViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F325321F9F79F0062B78E /* FooViewModel.swift */; };
 		7D4B07A9216B8D2900D19D1A /* SDMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B079D216B8D2900D19D1A /* SDMainViewController.swift */; };
 		7D4B07AD216B8DBF00D19D1A /* SDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AA216B8DBF00D19D1A /* SDViewController.swift */; };
 		7D4B07AE216B8DBF00D19D1A /* SDWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B07AB216B8DBF00D19D1A /* SDWebViewController.swift */; };
@@ -127,6 +130,12 @@
 		7DC0A57D219FEC600057A3D1 /* HogeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A57C219FEC600057A3D1 /* HogeViewModel.swift */; };
 		7DC0A57E219FEC600057A3D1 /* HogeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A57C219FEC600057A3D1 /* HogeViewModel.swift */; };
 		7DC0A57F219FEC600057A3D1 /* HogeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC0A57C219FEC600057A3D1 /* HogeViewModel.swift */; };
+		7DF8849C21D6561C00813708 /* SDPushFadeSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8849A21D6561C00813708 /* SDPushFadeSegue.swift */; };
+		7DF8849D21D6561C00813708 /* SDPushFadeSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8849A21D6561C00813708 /* SDPushFadeSegue.swift */; };
+		7DF8849E21D6561C00813708 /* SDPushFadeSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8849A21D6561C00813708 /* SDPushFadeSegue.swift */; };
+		7DF8849F21D6561C00813708 /* SDPresentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8849B21D6561C00813708 /* SDPresentSegue.swift */; };
+		7DF884A021D6561C00813708 /* SDPresentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8849B21D6561C00813708 /* SDPresentSegue.swift */; };
+		7DF884A121D6561C00813708 /* SDPresentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8849B21D6561C00813708 /* SDPresentSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -157,6 +166,7 @@
 		7D2E42C0218E16CB006B1C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Konsilo.storyboard; sourceTree = "<group>"; };
 		7D2E42C2218E16CC006B1C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		7D2E42C6218E18C7006B1C3F /* SDUsageItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDUsageItemsViewController.swift; sourceTree = "<group>"; };
+		7D2F325321F9F79F0062B78E /* FooViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooViewModel.swift; sourceTree = "<group>"; };
 		7D4B079D216B8D2900D19D1A /* SDMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDMainViewController.swift; sourceTree = "<group>"; };
 		7D4B07AA216B8DBF00D19D1A /* SDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDViewController.swift; sourceTree = "<group>"; };
 		7D4B07AB216B8DBF00D19D1A /* SDWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDWebViewController.swift; sourceTree = "<group>"; };
@@ -184,6 +194,8 @@
 		7DC0A56C219FDC1C0057A3D1 /* SDApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDApiClient.swift; sourceTree = "<group>"; };
 		7DC0A571219FDF280057A3D1 /* UserParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserParam.swift; sourceTree = "<group>"; };
 		7DC0A57C219FEC600057A3D1 /* HogeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeViewModel.swift; sourceTree = "<group>"; };
+		7DF8849A21D6561C00813708 /* SDPushFadeSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDPushFadeSegue.swift; sourceTree = "<group>"; };
+		7DF8849B21D6561C00813708 /* SDPresentSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDPresentSegue.swift; sourceTree = "<group>"; };
 		A88108EF4900FA0B5529BD40 /* Pods_SagxaDormo_staging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SagxaDormo_staging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF34DB1E314E0BFD8EB42C8 /* Pods-SagxaDormo-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SagxaDormo-dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-SagxaDormo-dev/Pods-SagxaDormo-dev.release.xcconfig"; sourceTree = "<group>"; };
 		D2E7C4C0EF92A54A218E6E73 /* Pods-SagxaDormo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SagxaDormo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SagxaDormo/Pods-SagxaDormo.release.xcconfig"; sourceTree = "<group>"; };
@@ -294,6 +306,8 @@
 		7D4B079A216B8D2900D19D1A /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				7DF8849B21D6561C00813708 /* SDPresentSegue.swift */,
+				7DF8849A21D6561C00813708 /* SDPushFadeSegue.swift */,
 				7D4B07AA216B8DBF00D19D1A /* SDViewController.swift */,
 				7D4B07AB216B8DBF00D19D1A /* SDWebViewController.swift */,
 				7D4B07AC216B8DBF00D19D1A /* UIStoryboard+ext.swift */,
@@ -347,6 +361,7 @@
 			isa = PBXGroup;
 			children = (
 				7DC0A57C219FEC600057A3D1 /* HogeViewModel.swift */,
+				7D2F325321F9F79F0062B78E /* FooViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -815,6 +830,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF884A121D6561C00813708 /* SDPresentSegue.swift in Sources */,
 				7D4B07C3216B94D600D19D1A /* SDLocaleUtil.swift in Sources */,
 				7D2E42BA218E0DBC006B1C3F /* SDKonsiloViewController.swift in Sources */,
 				7D1CB735218EF1730058FBCA /* UIScrollView+ext.swift in Sources */,
@@ -832,11 +848,13 @@
 				7DC0A578219FDF280057A3D1 /* UserParam.swift in Sources */,
 				7D4B07B4216B902D00D19D1A /* String+Regexp+Format+Size.swift in Sources */,
 				7D2E42A8218E041C006B1C3F /* SDLoginViewController.swift in Sources */,
+				7DF8849E21D6561C00813708 /* SDPushFadeSegue.swift in Sources */,
 				7D4B07B5216B902D00D19D1A /* Date+Misc.swift in Sources */,
 				7D4B07C4216B94D600D19D1A /* SDConstantEnums.swift in Sources */,
 				7D4B07B7216B90FC00D19D1A /* R.generated.swift in Sources */,
 				7D2E42C7218E18C7006B1C3F /* SDUsageItemsViewController.swift in Sources */,
 				7D2E42B4218E0712006B1C3F /* SDProfiloRedaktiloViewController.swift in Sources */,
+				7D2F325621F9F79F0062B78E /* FooViewModel.swift in Sources */,
 				7DC0A56B219FDBAF0057A3D1 /* User.swift in Sources */,
 				7D4B07AD216B8DBF00D19D1A /* SDViewController.swift in Sources */,
 				7D4B07AF216B8DBF00D19D1A /* UIStoryboard+ext.swift in Sources */,
@@ -852,6 +870,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF8849F21D6561C00813708 /* SDPresentSegue.swift in Sources */,
 				7D7386EC2195DB4E00347597 /* SDLocaleUtil.swift in Sources */,
 				7D7386ED2195DB4E00347597 /* SDKonsiloViewController.swift in Sources */,
 				7D7386EE2195DB4E00347597 /* UIScrollView+ext.swift in Sources */,
@@ -869,11 +888,13 @@
 				7DC0A576219FDF280057A3D1 /* UserParam.swift in Sources */,
 				7D7386F82195DB4E00347597 /* String+Regexp+Format+Size.swift in Sources */,
 				7D7386F92195DB4E00347597 /* SDLoginViewController.swift in Sources */,
+				7DF8849C21D6561C00813708 /* SDPushFadeSegue.swift in Sources */,
 				7D7386FA2195DB4E00347597 /* Date+Misc.swift in Sources */,
 				7D7386FB2195DB4E00347597 /* SDConstantEnums.swift in Sources */,
 				7D7386FC2195DB4E00347597 /* R.generated.swift in Sources */,
 				7D7386FD2195DB4E00347597 /* SDUsageItemsViewController.swift in Sources */,
 				7D7386FE2195DB4E00347597 /* SDProfiloRedaktiloViewController.swift in Sources */,
+				7D2F325421F9F79F0062B78E /* FooViewModel.swift in Sources */,
 				7DC0A569219FDBAF0057A3D1 /* User.swift in Sources */,
 				7D7386FF2195DB4E00347597 /* SDViewController.swift in Sources */,
 				7D7387002195DB4E00347597 /* UIStoryboard+ext.swift in Sources */,
@@ -889,6 +910,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF884A021D6561C00813708 /* SDPresentSegue.swift in Sources */,
 				7D73871A2195DB5C00347597 /* SDLocaleUtil.swift in Sources */,
 				7D73871B2195DB5C00347597 /* SDKonsiloViewController.swift in Sources */,
 				7D73871C2195DB5C00347597 /* UIScrollView+ext.swift in Sources */,
@@ -906,11 +928,13 @@
 				7DC0A577219FDF280057A3D1 /* UserParam.swift in Sources */,
 				7D7387262195DB5C00347597 /* String+Regexp+Format+Size.swift in Sources */,
 				7D7387272195DB5C00347597 /* SDLoginViewController.swift in Sources */,
+				7DF8849D21D6561C00813708 /* SDPushFadeSegue.swift in Sources */,
 				7D7387282195DB5C00347597 /* Date+Misc.swift in Sources */,
 				7D7387292195DB5C00347597 /* SDConstantEnums.swift in Sources */,
 				7D73872A2195DB5C00347597 /* R.generated.swift in Sources */,
 				7D73872B2195DB5C00347597 /* SDUsageItemsViewController.swift in Sources */,
 				7D73872C2195DB5C00347597 /* SDProfiloRedaktiloViewController.swift in Sources */,
+				7D2F325521F9F79F0062B78E /* FooViewModel.swift in Sources */,
 				7DC0A56A219FDBAF0057A3D1 /* User.swift in Sources */,
 				7D73872D2195DB5C00347597 /* SDViewController.swift in Sources */,
 				7D73872E2195DB5C00347597 /* UIStoryboard+ext.swift in Sources */,

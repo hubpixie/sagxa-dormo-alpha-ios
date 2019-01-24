@@ -34,6 +34,12 @@ class SDApiClient: SwaggerClientAPI {
         case ohter
     }
     
+    struct ErrorInfo {
+        var errorCode: Int
+        var errorData: Data?
+        var innerError: Error?
+    }
+    
     #if STAGING
     static var webApiPath = "http://192.168.10.103:8080"
     #else
@@ -102,11 +108,11 @@ class SDApiClient: SwaggerClientAPI {
         }
     }
     
-    class func errorInfo(error: Error?) ->(Int, Data?, Error)? {
+    class func errorInfo(error: Error?) ->ErrorInfo? {
         if error != nil && error is ErrorResponse? {
             let error = error as? ErrorResponse
             if case let ErrorResponse.error(info) = error! {
-                return info
+                return ErrorInfo(errorCode: info.0, errorData: info.1, innerError: info.2)
             }
         }
         return nil

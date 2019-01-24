@@ -22,16 +22,13 @@
                                 <rect key="frame" x="132" y="277" width="129" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login"/>
-                                <connections>
-                                    <segue destination="BeY-qT-N12" kind="show" id="Q6y-2u-YK8"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fd9-RS-RJ0">
                                 <rect key="frame" x="132" y="392" width="129" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Profile"/>
                                 <connections>
-                                    <segue destination="aNK-LV-aCG" kind="show" id="yj4-F7-Je2"/>
+                                    <segue destination="BeY-qT-N12" kind="push" identifier="TestProfileImportMattersSegue" customClass="SDPushFadeSegue" customModule="SagxaDormo" customModuleProvider="target" id="Dhy-uh-F2H"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -105,6 +102,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wD6-kp-7U4"/>
                     </view>
+                    <navigationItem key="navigationItem" id="pBJ-dE-AE6"/>
                     <connections>
                         <outlet property="contentView" destination="lXr-tr-dqc" id="jvZ-vV-y07"/>
                         <outlet property="functionView" destination="Jw6-qx-rIp" id="8TB-Cl-7ir"/>
@@ -144,7 +142,7 @@
         <!--Profilo Redaktilo View Controller-->
         <scene sceneID="q9Z-oX-klY">
             <objects>
-                <viewController id="aNK-LV-aCG" customClass="SDProfiloRedaktiloViewController" customModule="SagxaDormo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfiloRedaktiloVC" id="aNK-LV-aCG" customClass="SDProfiloRedaktiloViewController" customModule="SagxaDormo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3K7-7g-dK6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -382,7 +380,4 @@
             <point key="canvasLocation" x="3276" y="133.5832083958021"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="yj4-F7-Je2"/>
-    </inferredMetricsTieBreakers>
 </document>
